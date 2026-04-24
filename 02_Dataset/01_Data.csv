@@ -1,0 +1,510 @@
+Name,Age,Marital Status,Education Level,Number of Children,Smoking Status,Physical Activity Level,Employment Status,Income,Alcohol Consumption,Dietary Habits,Sleep Patterns,History of Mental Illness,History of Substance Abuse,Family History of Depression,Chronic Medical Conditions
+Christine Barker,31.0,Married,Bachelor's Degree,2,Non-smoker,Active,Unemployed,26265.67,Moderate,Moderate,Fair,Yes,N,Yes,Yes
+Jacqueline Lewis,,Married,High School,1,Non-smoker,Sedentary,Employed,42710.36,High,Unhealthy,Fair,Yes,N,No,Yes
+Shannon Church,78.0,Widowed,Master's Degree,1,Non-smoker,Sedentary,Employed,125332.79,,Unhealthy,Good,No,N,Yes,No
+Charles Jordan,,Divorced,Master's Degree,3,Non-smoker,Moderate,Unemployed,9992.78,Moderate,Moderate,Poor,No,N,No,No
+Michael Rich,,Single,High School,0,Non-smoker,Sedentary,Unemployed,8595.08,Low,Moderate,Fair,Yes,N,Yes,Yes
+Kathy Hill,20.0,,High School,0,Former,Active,Employed,44448.91,Low,Unhealthy,Fair,No,Y,No,No
+Crystal Delgado,,Widowed,Associate Degree,1,Non-smoker,Sedentary,Unemployed,22565.47,Moderate,Moderate,Poor,No,Y,No,No
+Charles Kaiser,31.0,,High School,0,Non-smoker,Active,Employed,39608.18,Moderate,Unhealthy,Good,No,N,No,No
+Kathryn Taylor,50.0,Divorced,Bachelor's Degree,0,Non-smoker,Active,Employed,93360.07,Moderate,Healthy,Good,No,Y,No,Yes
+Alexander Hernandez,77.0,Married,Bachelor's Degree,2,Non-smoker,Sedentary,Employed,77597.84,Low,Unhealthy,Poor,Yes,N,No,No
+Scott Butler,70.0,Married,High School,1,Non-smoker,Moderate,Unemployed,28528.97,Moderate,Moderate,Fair,Yes,Y,No,Yes
+Anthony Rowe,59.0,Married,Bachelor's Degree,1,Non-smoker,Sedentary,,61225.16,Moderate,Unhealthy,Fair,No,N,No,No
+Megan Haley,33.0,Married,Bachelor's Degree,4,Non-smoker,Sedentary,Unemployed,10145.1,Moderate,Moderate,Fair,Yes,N,No,No
+Anne Gonzalez,70.0,Widowed,Master's Degree,1,Non-smoker,Moderate,Unemployed,13428.05,High,Healthy,Fair,No,N,No,Yes
+Linda Bush,66.0,Widowed,Bachelor's Degree,1,Non-smoker,Sedentary,Unemployed,16853.76,Moderate,Moderate,Fair,No,N,Yes,Yes
+Daniel Estrada,38.0,,PhD,0,Non-smoker,Moderate,Employed,202449.17,High,Healthy,Fair,No,N,No,No
+Alyssa Scott,25.0,Single,,0,,Active,Employed,90815.8,High,Moderate,Good,No,N,Yes,No
+Christopher Wallace,77.0,Married,Bachelor's Degree,0,Former,Sedentary,Unemployed,10286.88,Low,Moderate,Fair,No,N,No,No
+Theresa Smith,32.0,,Associate Degree,3,Non-smoker,Sedentary,Employed,57445.12,High,Unhealthy,Fair,No,Y,No,No
+Brian Robles,52.0,Married,Master's Degree,1,Non-smoker,Sedentary,Employed,115246.61,High,Unhealthy,Fair,No,N,No,Yes
+Kenneth Perez,55.0,,High School,2,Non-smoker,Active,Unemployed,27010.93,Moderate,Moderate,Fair,Yes,N,No,Yes
+Sarah Diaz,49.0,Married,Bachelor's Degree,0,Non-smoker,Active,Employed,80378.39,High,Healthy,Good,No,N,No,No
+Richard Neal,28.0,Single,,0,Non-smoker,Active,Unemployed,24651.61,Moderate,Unhealthy,Fair,Yes,N,No,No
+Christine Montes,56.0,Married,Master's Degree,2,Non-smoker,Moderate,Employed,93023.4,Moderate,Moderate,Fair,No,Y,No,No
+Nicholas Davis,33.0,Married,Associate Degree,3,Non-smoker,Active,Employed,63177.76,Moderate,Moderate,Fair,No,N,Yes,No
+Erin Smith,37.0,,Master's Degree,4,Non-smoker,Sedentary,Employed,155379.77,High,Unhealthy,Fair,No,N,No,No
+Donna Castillo,27.0,Single,Bachelor's Degree,0,Non-smoker,Active,Employed,68139.93,Low,Healthy,Fair,No,Y,No,Yes
+Yvonne Evans,33.0,Married,High School,4,Non-smoker,Sedentary,Employed,32699.86,Low,Unhealthy,Poor,No,N,No,No
+Pam Zamora,69.0,,Bachelor's Degree,2,Non-smoker,Sedentary,Unemployed,10957.98,Low,Moderate,Fair,Yes,N,No,No
+Benjamin Love,46.0,Divorced,Bachelor's Degree,3,Former,Moderate,Employed,88474.23,Moderate,Moderate,Fair,No,N,Yes,No
+Thomas Sparks,69.0,Widowed,Master's Degree,2,Former,Moderate,Employed,136438.77,Moderate,Healthy,Good,No,N,Yes,No
+Brett Russell,50.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,85017.16,Moderate,Healthy,Poor,No,N,No,Yes
+Rachel Adams,67.0,Widowed,High School,1,Non-smoker,Sedentary,Unemployed,27483.12,High,Moderate,Poor,Yes,N,No,Yes
+Mario Hicks,22.0,Married,High School,0,Non-smoker,Active,Employed,24614.68,Moderate,Unhealthy,Fair,Yes,N,No,No
+Barbara Lynch,26.0,Married,High School,0,Non-smoker,Active,Unemployed,19792.21,Low,Moderate,Fair,Yes,N,No,No
+Robert Barrett,72.0,Married,High School,2,Non-smoker,Moderate,,22787.61,Low,Unhealthy,Poor,No,N,No,No
+Jacob Soto,22.0,Single,,0,Non-smoker,Sedentary,Unemployed,18619.35,Moderate,Moderate,Fair,No,Y,Yes,Yes
+William Bernard,34.0,Single,High School,0,Non-smoker,Moderate,Unemployed,20199.46,Moderate,Moderate,Poor,No,Y,No,No
+Wesley Acosta,78.0,Widowed,High School,0,Former,Moderate,Unemployed,6833.12,Moderate,Unhealthy,Poor,No,Y,Yes,No
+Zachary Ochoa,18.0,Single,High School,0,Former,Sedentary,Employed,24934.66,Low,Moderate,Fair,No,N,No,No
+Eric Sanchez,53.0,Divorced,High School,2,Former,Moderate,Employed,25265.44,Low,Unhealthy,Good,Yes,Y,No,No
+Diana Davis,44.0,Divorced,High School,2,Former,Moderate,Employed,26079.4,Low,Moderate,Good,No,Y,No,No
+Robert Flores,53.0,Married,Associate Degree,3,Former,Active,Employed,36838.12,Low,Unhealthy,Poor,Yes,Y,No,No
+Michael Mcclure,66.0,Widowed,High School,3,Non-smoker,Sedentary,Unemployed,2607.16,Moderate,Unhealthy,Poor,Yes,Y,No,Yes
+Charles Stokes,62.0,Married,Bachelor's Degree,0,Non-smoker,Sedentary,Unemployed,3202.78,Low,Moderate,Fair,Yes,N,No,No
+Karen White,51.0,Married,Master's Degree,1,,Moderate,Unemployed,8512.35,Low,Healthy,Poor,No,Y,Yes,Yes
+Betty Coleman,50.0,Married,Master's Degree,3,Former,Sedentary,Employed,110044.45,High,Unhealthy,Fair,No,N,No,No
+Dr. Jessica Woods,58.0,Divorced,Associate Degree,0,Non-smoker,Active,Unemployed,14034.07,Moderate,Moderate,Fair,No,N,Yes,Yes
+Jeffrey Butler,23.0,Single,Bachelor's Degree,0,Former,Moderate,Unemployed,1810.48,Moderate,Healthy,Fair,Yes,N,Yes,No
+Andrew Hubbard,33.0,Married,Associate Degree,0,Former,Sedentary,Employed,35186.75,Moderate,Unhealthy,Good,Yes,Y,Yes,No
+Brian Valdez Jr.,24.0,Single,Associate Degree,0,Non-smoker,Moderate,Employed,41433.8,Moderate,Moderate,Fair,No,Y,No,No
+Lisa Mooney,46.0,Married,,3,Former,Active,Employed,65625.57,Low,Unhealthy,Fair,No,No,Yes,Yes
+Michael Farley,,Married,Associate Degree,2,Non-smoker,Sedentary,Employed,50539.53,Low,Unhealthy,Fair,No,No,No,No
+Paul Hoover,25.0,Single,Bachelor's Degree,0,Current,Sedentary,Employed,60671.68,High,Unhealthy,Fair,No,No,Yes,No
+Vicki Shields,,Married,Bachelor's Degree,0,,Moderate,Employed,93479.26,High,Moderate,Good,No,Yes,No,No
+Joseph Baker,,Widowed,High School,1,Non-smoker,Sedentary,Employed,41344.79,Low,Unhealthy,Fair,No,No,No,Yes
+Douglas Branch,,Married,Master's Degree,3,Former,Active,Unemployed,17180.24,Moderate,Moderate,Poor,Yes,No,Yes,No
+Beverly Perez,61.0,Widowed,Master's Degree,3,Non-smoker,Sedentary,Unemployed,8201.48,Low,Moderate,Poor,No,Yes,Yes,No
+Brandon York,60.0,Married,Bachelor's Degree,1,Non-smoker,Sedentary,Unemployed,13655.1,Moderate,Unhealthy,Poor,No,No,No,No
+Diana Garcia,65.0,Widowed,PhD,1,Non-smoker,Sedentary,,6457.95,High,Unhealthy,Poor,Yes,No,No,No
+Brian Brady,63.0,Widowed,Associate Degree,3,Former,Moderate,Unemployed,15100.68,Low,Moderate,Fair,No,No,Yes,No
+Jason Lester,56.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Unemployed,19431.52,High,Healthy,Poor,No,No,No,No
+Tommy Wright,73.0,Widowed,PhD,1,Former,Sedentary,Employed,124698.63,Low,Unhealthy,Fair,No,No,No,Yes
+Joe Williams,71.0,Widowed,Master's Degree,2,Non-smoker,Sedentary,Employed,140015.25,,Unhealthy,Fair,No,Yes,Yes,Yes
+Angela Soto,49.0,Widowed,Bachelor's Degree,3,Non-smoker,Moderate,Employed,67450.92,Moderate,Moderate,Fair,No,No,No,No
+Sonya Fuller,66.0,Married,Associate Degree,1,Former,Sedentary,Unemployed,22452.21,High,Unhealthy,Poor,Yes,No,No,No
+Ronald Howard,76.0,Married,Bachelor's Degree,2,Non-smoker,Sedentary,Unemployed,14826.05,Low,Unhealthy,Fair,No,No,No,No
+Kaitlyn Hicks DDS,32.0,Married,,3,Current,Moderate,Employed,68550.95,Moderate,Moderate,Good,No,No,No,No
+Angela West,38.0,Divorced,,2,Current,Moderate,Unemployed,2800.12,Moderate,Healthy,Poor,No,No,No,No
+Alan Brown,43.0,Widowed,Master's Degree,0,Non-smoker,Moderate,Employed,113373.89,Moderate,Moderate,Good,No,No,No,No
+James Jackson,54.0,Married,Associate Degree,2,Non-smoker,Moderate,Employed,42384.89,Low,Unhealthy,Poor,Yes,No,No,No
+Christopher Brooks,40.0,Married,Associate Degree,3,Non-smoker,Moderate,Employed,57911.11,Low,Unhealthy,Poor,No,No,No,No
+Christina Williams,55.0,Divorced,Associate Degree,3,Non-smoker,Moderate,Employed,37741.32,Low,Unhealthy,Good,No,No,No,No
+Erin Henry,39.0,Married,Associate Degree,2,Non-smoker,Moderate,Employed,46216.64,Low,Unhealthy,Poor,No,No,No,No
+Kim Christensen,24.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,,60900.61,Moderate,Moderate,Poor,No,No,No,Yes
+Valerie Mosley,32.0,Married,Associate Degree,4,Non-smoker,Sedentary,,64992.54,Low,Unhealthy,Poor,No,Yes,No,No
+Erica Marshall,59.0,Married,Bachelor's Degree,2,Non-smoker,Sedentary,Employed,58700.76,Low,Unhealthy,Poor,No,No,No,No
+Richard Walters,21.0,Single,High School,0,Non-smoker,Moderate,Employed,33202.08,Moderate,Unhealthy,Fair,No,No,No,No
+Brett Fleming,19.0,Single,High School,0,Non-smoker,Active,Employed,35975.49,Low,Unhealthy,Good,No,No,No,No
+Ryan Cook,39.0,Married,High School,0,Non-smoker,Moderate,Employed,41297.58,Low,Unhealthy,Fair,No,No,No,No
+Joseph Silva,64.0,Married,Associate Degree,2,Non-smoker,Moderate,Employed,56855.93,Moderate,Unhealthy,Poor,No,No,No,No
+Jose Fox,36.0,Married,Master's Degree,0,Non-smoker,Moderate,Employed,104615.72,Low,Healthy,Fair,Yes,No,No,Yes
+Kyle Brown,19.0,Single,High School,0,Current,Moderate,Unemployed,16806.23,Moderate,Moderate,Poor,No,Yes,No,No
+Daniel Pratt,50.0,Married,Master's Degree,2,Non-smoker,Sedentary,Employed,139773.46,High,Moderate,Fair,No,Yes,No,No
+Victoria Maynard,72.0,Married,,3,Non-smoker,Sedentary,Employed,143915.42,High,Unhealthy,Fair,No,No,No,No
+Jennifer Johnson,22.0,Single,Associate Degree,0,Non-smoker,Active,Unemployed,27804.08,Moderate,Unhealthy,Fair,No,No,No,Yes
+Amber Williams,71.0,Widowed,High School,2,Non-smoker,Sedentary,Unemployed,20712.99,High,Unhealthy,Poor,No,No,Yes,Yes
+Mary Keller,69.0,Widowed,High School,1,Former,Sedentary,Employed,23504.24,Moderate,Unhealthy,Good,No,No,No,No
+William Johnson,35.0,Married,Associate Degree,1,Former,Sedentary,Employed,42374.77,Low,Unhealthy,Poor,No,Yes,Yes,Yes
+Jordan Foley,36.0,Married,Bachelor's Degree,1,Non-smoker,Moderate,Employed,59890.59,Moderate,Healthy,Fair,No,No,No,No
+James Simmons,30.0,Married,High School,3,Non-smoker,Active,Unemployed,12001.49,High,Moderate,Fair,No,Yes,No,No
+Kelly Collins,70.0,Widowed,Bachelor's Degree,1,Non-smoker,Sedentary,Employed,85594.6,,Unhealthy,Fair,Yes,No,Yes,Yes
+Henry Oliver,76.0,Married,Master's Degree,3,Former,Sedentary,Unemployed,9833.71,Moderate,Moderate,Poor,Yes,No,Yes,No
+Alexandra Sanchez,45.0,Divorced,Bachelor's Degree,0,Current,Active,Unemployed,26337.23,Low,Unhealthy,Fair,No,No,No,Yes
+Robert Cantrell,80.0,Married,Associate Degree,2,Non-smoker,Moderate,Unemployed,7744.02,High,Moderate,Poor,No,No,No,No
+Kimberly Huffman,73.0,Widowed,High School,3,Non-smoker,Sedentary,Employed,36724.01,High,Moderate,Fair,No,No,No,Yes
+Michael Roach,41.0,Married,Bachelor's Degree,0,Non-smoker,Active,Employed,58356.37,Low,Healthy,Fair,No,No,No,No
+Edward Brown,46.0,Married,Associate Degree,2,Former,Moderate,Employed,53335.29,Low,Moderate,Fair,No,Yes,No,Yes
+Derek Daniels,44.0,Married,High School,2,Former,Active,Unemployed,23577.61,Low,Unhealthy,Poor,No,No,Yes,No
+Emily Reid,25.0,Single,Bachelor's Degree,0,Former,Sedentary,Employed,92321.42,Low,Unhealthy,Good,No,No,No,No
+Daniel Moore,51.0,D,Associate Degree,0,Former,Moderate,Employed,64853.67,Low,Unhealthy,Fair,Yes,No,No,No
+Jeffrey King,48.0,M,Associate Degree,3,Non-smoker,Sedentary,Unemployed,15805.24,Low,Unhealthy,Poor,No,No,No,Yes
+Michael Shaw,56.0,M,Master's Degree,2,Non-smoker,Sedentary,Employed,115231.57,High,Unhealthy,Poor,Yes,No,No,No
+Amy Johnston,49.0,M,Bachelor's Degree,2,,Sedentary,Employed,54103.12,Low,Unhealthy,Fair,No,Yes,No,No
+Cody Barker,32.0,M,Bachelor's Degree,2,Current,Moderate,Employed,73763.64,Low,Moderate,Fair,No,Yes,No,No
+Brandi Gates,53.0,W,PhD,3,Former,Sedentary,,169400.38,High,Unhealthy,Good,No,Yes,Yes,No
+Mark Reyes,40.0,M,Bachelor's Degree,1,,Sedentary,Employed,105716.62,High,Unhealthy,Fair,No,Yes,No,No
+Ashley Howard,42.0,W,Bachelor's Degree,3,Non-smoker,Moderate,Employed,101402.65,Moderate,Healthy,Fair,No,Yes,Yes,No
+Justin Price,43.0,M,High School,3,Non-smoker,Active,Employed,23433.17,,Unhealthy,Poor,No,Yes,No,No
+Anthony Mckee,23.0,S,Bachelor's Degree,0,Former,Moderate,Employed,63840.75,Moderate,Moderate,Fair,No,No,No,No
+William Alexander,18.0,S,High School,0,Current,Moderate,Employed,36547.68,High,Healthy,Good,Yes,Yes,Yes,No
+Johnny Bennett,73.0,M,High School,2,Former,Sedentary,Employed,23069.44,Moderate,Unhealthy,Poor,No,No,No,No
+Juan Sanchez,18.0,S,High School,0,Former,Sedentary,Employed,33422.35,Moderate,Unhealthy,Good,Yes,No,No,Yes
+Nicole Daniels,36.0,M,Master's Degree,4,Non-smoker,Sedentary,Unemployed,13131.36,High,Moderate,Fair,No,No,No,No
+Michele Ross,22.0,S,High School,0,Non-smoker,Active,Employed,33679.03,Low,Unhealthy,Fair,No,No,No,No
+Johnathan Garrett,68.0,M,Associate Degree,3,Non-smoker,Moderate,Unemployed,20432.66,Low,Unhealthy,Poor,Yes,Yes,No,No
+Gregory Buck,22.0,M,High School,2,Former,Active,Employed,42435.39,Moderate,Unhealthy,Fair,Yes,No,No,No
+Johnny Johnson,37.0,D,Associate Degree,0,Non-smoker,Moderate,Employed,57942.36,Moderate,Moderate,Good,No,No,No,No
+Daniel Campbell,22.0,S,High School,0,Former,Active,Employed,23000.8,Moderate,Unhealthy,Fair,Yes,No,No,No
+Monica Vance,21.0,S,High School,0,Non-smoker,Sedentary,Employed,30179.49,Low,Unhealthy,Fair,No,No,No,No
+Chris Kelly,24.0,M,High School,0,Current,Sedentary,Unemployed,23274.09,Moderate,Unhealthy,Poor,No,No,No,No
+Mary Watson,22.0,S,High School,0,Former,Active,Unemployed,2448.34,,Unhealthy,Poor,Yes,Yes,No,No
+Jeanette Rodriguez,71.0,W,High School,2,Non-smoker,Sedentary,Employed,22561.13,High,Unhealthy,Fair,Yes,No,Yes,No
+Michael White,75.0,W,Bachelor's Degree,2,Non-smoker,Moderate,Employed,61490.51,Low,Healthy,Fair,Yes,Yes,No,Yes
+Janet Brooks,26.0,S,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,75951.21,Low,Moderate,Fair,No,Yes,No,No
+Kevin Gates,23.0,S,High School,0,Current,Active,Employed,23104.5,Low,Moderate,Fair,No,Yes,No,Yes
+Stephanie Beltran,63.0,W,Master's Degree,1,Non-smoker,Moderate,Unemployed,16230.81,High,Healthy,Fair,Yes,No,No,No
+Amanda White,65.0,W,Bachelor's Degree,3,Former,Sedentary,Unemployed,20683.43,Low,Moderate,Fair,Yes,No,Yes,No
+Kristy Dodson,61.0,W,Associate Degree,1,Former,Sedentary,Employed,37298.19,Moderate,Unhealthy,Fair,Yes,No,No,No
+Patricia Young,77.0,M,High School,3,Former,Moderate,Unemployed,27065.67,Moderate,Moderate,Fair,Yes,No,No,Yes
+Kevin White,38.0,M,Bachelor's Degree,2,Non-smoker,Moderate,Employed,66222.11,Low,Moderate,Fair,No,No,Yes,No
+Dawn Smith,18.0,S,Associate Degree,0,,Sedentary,Employed,53854.31,Low,Unhealthy,Fair,No,No,No,Yes
+Christian Miles,57.0,W,Bachelor's Degree,1,,Sedentary,Employed,91568.79,Moderate,Unhealthy,Good,No,No,No,No
+Justin Wang,45.0,D,High School,1,Former,Sedentary,Unemployed,2848.44,Moderate,Unhealthy,Fair,No,No,No,No
+David Johnson,66.0,M,,1,Non-smoker,Sedentary,Unemployed,17508.96,Moderate,Moderate,Fair,No,No,No,Yes
+Jimmy Miranda,22.0,S,High School,0,Non-smoker,Sedentary,Employed,27140.04,Low,Moderate,Good,No,No,No,No
+Nicole Pena,61.0,W,Bachelor's Degree,1,Former,Moderate,Employed,100993.33,High,Moderate,Fair,No,No,No,No
+George Torres,70.0,W,High School,0,Former,Moderate,Unemployed,15871.38,Moderate,Moderate,Fair,Yes,No,No,Yes
+Ryan Gutierrez,28.0,S,Bachelor's Degree,0,Current,Active,Employed,82085.73,High,Unhealthy,Poor,No,Yes,No,Yes
+Heather Riley,63.0,M,Associate Degree,0,Non-smoker,Sedentary,Unemployed,5939.86,Moderate,Unhealthy,Good,Yes,No,No,No
+Jim Erickson,80.0,W,High School,1,Non-smoker,Sedentary,Unemployed,13199.25,High,Unhealthy,Poor,Yes,No,Yes,No
+Amy Rogers,48.0,M,Bachelor's Degree,2,Former,Moderate,Employed,57881.77,Moderate,Moderate,Poor,Yes,Yes,No,Yes
+Raven Elliott,19.0,S,High School,0,Non-smoker,Active,Employed,24561.11,,Unhealthy,Good,Yes,No,No,No
+Jeffrey Cole,55.0,D,High School,1,Non-smoker,Active,Employed,43794.84,Moderate,Unhealthy,Fair,No,Yes,No,Yes
+Michael Miles,19.0,S,High School,0,Current,Moderate,Unemployed,1391.69,High,Unhealthy,Poor,No,No,No,No
+Deborah Moore,71.0,W,Associate Degree,3,Non-smoker,Sedentary,Unemployed,15102.93,Moderate,Unhealthy,Poor,Yes,No,Yes,Yes
+Nicole Williams,33.0,M,Bachelor's Degree,4,Non-smoker,Sedentary,Employed,96914.86,Moderate,Moderate,Fair,Yes,No,No,Yes
+Paula Zhang,23.0,S,Bachelor's Degree,0,Non-smoker,Sedentary,Unemployed,16811.03,Low,Moderate,Fair,Yes,No,No,No
+Karen Salazar,28.0,S,Bachelor's Degree,0,Former,Moderate,Unemployed,9074.91,High,Moderate,Fair,No,Yes,No,No
+Michael Jones,59.0,M,Associate Degree,1,Former,Sedentary,Employed,45016.63,High,Unhealthy,Poor,No,No,No,No
+Roger Harper,70.0,M,Bachelor's Degree,3,Former,Moderate,Unemployed,19331.67,Low,Healthy,Fair,Yes,No,No,Yes
+Monique Powell,55.0,Married,Master's Degree,2,Non-smoker,Sedentary,Employed,96487.09,Low,Unhealthy,Fair,No,No,No,No
+Lynn Bird,43.0,Married,Associate Degree,1,Former,Sedentary,Employed,60806.88,High,Unhealthy,Fair,No,Yes,No,No
+Lisa Fischer,66.0,Married,,0,Former,Sedentary,Unemployed,20321.02,High,Moderate,Good,No,No,Yes,No
+Patrick Williams,23.0,Single,Bachelor's Degree,0,Non-smoker,Active,Employed,107266.39,Low,Healthy,Fair,Yes,No,Yes,No
+Meghan Deleon,41.0,Widowed,High School,2,Non-smoker,Sedentary,Employed,24397.86,Moderate,Unhealthy,Fair,No,No,No,No
+Cynthia Campbell,72.0,Widowed,Bachelor's Degree,2,Non-smoker,Sedentary,Unemployed,341.21,High,Unhealthy,Fair,No,No,No,No
+Mr. Blake Jackson,59.0,Married,High School,3,Former,Moderate,Unemployed,29556.4,Moderate,Unhealthy,Fair,Yes,Yes,Yes,No
+Suzanne Wells,46.0,Divorced,High School,0,Current,Active,Employed,24626.36,Moderate,Unhealthy,Fair,No,No,Yes,No
+Michael Lopez,34.0,Divorced,Master's Degree,2,Non-smoker,Moderate,Employed,136407.23,High,Healthy,Good,Yes,Yes,Yes,No
+Monica Parker,21.0,Married,High School,2,Former,Moderate,Unemployed,9294.7,Low,Moderate,Poor,Yes,Yes,No,No
+Lee Lee,45.0,Married,Master's Degree,3,Former,Moderate,Employed,120643.17,High,Moderate,Poor,No,Yes,No,Yes
+James Dean MD,66.0,Married,Associate Degree,1,Former,Sedentary,Unemployed,18971.89,Moderate,Moderate,Poor,No,No,No,No
+Carrie Clayton,56.0,Divorced,Bachelor's Degree,1,Non-smoker,Sedentary,Unemployed,24592.4,Low,Moderate,Fair,Yes,Yes,No,No
+Karen Hayes,38.0,Married,Associate Degree,0,Current,Sedentary,Employed,44981.22,Moderate,Healthy,Poor,Yes,Yes,No,Yes
+Elizabeth Johnson,24.0,Single,Master's Degree,0,Current,Active,Unemployed,16011.0,Low,Healthy,Fair,No,Yes,No,Yes
+Christopher Olson,47.0,Married,Bachelor's Degree,3,Former,Sedentary,Employed,74075.63,Low,Moderate,Poor,No,Yes,No,No
+Carol Fuentes,70.0,Widowed,Master's Degree,1,Non-smoker,Sedentary,Unemployed,17625.38,Moderate,Unhealthy,Poor,Yes,Yes,No,No
+Katherine Marsh,78.0,Married,Bachelor's Degree,0,Former,Sedentary,Unemployed,19381.98,High,Unhealthy,Fair,No,No,No,No
+Jodi Powers,71.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Unemployed,23232.5,Low,Unhealthy,Fair,Yes,No,Yes,No
+Hunter Sullivan,36.0,Divorced,PhD,3,Non-smoker,Sedentary,Employed,180084.56,,Unhealthy,Fair,No,Yes,No,No
+Jennifer Dorsey MD,79.0,Widowed,Associate Degree,2,Non-smoker,Sedentary,Employed,40925.26,High,Unhealthy,Fair,Yes,No,No,No
+Anthony Hill,77.0,Widowed,,2,Former,Moderate,Unemployed,21994.23,,Moderate,Fair,No,No,Yes,No
+Paul Barker,70.0,Married,,0,Non-smoker,Sedentary,Unemployed,28251.15,,Unhealthy,Fair,Yes,No,Yes,No
+Belinda Davis,76.0,Widowed,Associate Degree,0,Non-smoker,Moderate,Employed,43113.23,Moderate,Unhealthy,Fair,No,Yes,No,No
+Ian Weaver,39.0,Divorced,Bachelor's Degree,2,Former,Moderate,Unemployed,25597.98,Moderate,Healthy,Poor,Yes,Yes,No,No
+Kenneth Johnson,79.0,Widowed,,2,Non-smoker,Moderate,Employed,93845.53,Moderate,Moderate,Good,No,Yes,Yes,Yes
+Hector Barrera,45.0,Married,High School,3,Non-smoker,Sedentary,Employed,43191.05,Low,Unhealthy,Poor,No,Yes,Yes,No
+David Moore,42.0,Married,High School,2,Current,Sedentary,Employed,29452.0,Moderate,Unhealthy,Poor,No,Yes,No,Yes
+Daniel Moreno,54.0,Divorced,High School,1,Non-smoker,Sedentary,Employed,24797.24,Moderate,Unhealthy,Fair,Yes,Yes,No,Yes
+Robert Price,24.0,Married,Associate Degree,2,Former,Sedentary,Unemployed,12599.31,High,Moderate,Poor,No,Yes,No,Yes
+Dillon Wolfe,62.0,Married,High School,0,Non-smoker,Sedentary,Unemployed,28481.55,Moderate,Moderate,Fair,Yes,Yes,Yes,Yes
+Guy Long,45.0,Married,Bachelor's Degree,0,Non-smoker,Moderate,Unemployed,26684.69,High,Healthy,Good,No,No,Yes,Yes
+Anthony Ramirez,22.0,Single,Associate Degree,0,Non-smoker,Active,Unemployed,4814.24,High,Moderate,Poor,No,No,Yes,No
+Joseph Watkins,66.0,Widowed,PhD,1,Non-smoker,Moderate,Unemployed,14882.28,Low,Moderate,Fair,No,No,No,No
+Julie Robinson,39.0,Married,Master's Degree,3,Former,Moderate,Employed,127633.99,Moderate,Moderate,Poor,No,No,No,No
+Claudia Phillips,27.0,Single,Master's Degree,0,Non-smoker,Moderate,Employed,145946.64,Low,Healthy,Good,Yes,Yes,No,No
+Steven Powers,67.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Unemployed,22160.82,Low,Moderate,Poor,No,Yes,No,Yes
+Angelica Buchanan,59.0,Married,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,94667.07,Moderate,Moderate,Good,Yes,Yes,No,No
+Heather Cole,32.0,Married,High School,3,,Active,Employed,41501.96,Low,Moderate,Fair,Yes,Yes,No,No
+Laura Gilbert,77.0,Married,Associate Degree,0,Non-smoker,Moderate,Employed,40065.65,Moderate,Moderate,Good,Yes,No,No,No
+Brandon Petty,34.0,Single,High School,0,Former,Active,Employed,28507.47,Low,Unhealthy,Fair,Yes,Yes,No,No
+Richard Valencia,24.0,Married,Bachelor's Degree,2,Former,Sedentary,Employed,72294.71,Moderate,Unhealthy,Fair,No,No,No,No
+Amy Scott,64.0,Married,PhD,1,Non-smoker,Moderate,Employed,193843.44,Low,Healthy,Poor,No,No,Yes,No
+Aaron Nelson,40.0,Divorced,Bachelor's Degree,3,Former,Active,Employed,93140.47,High,Healthy,Good,No,Yes,Yes,No
+Jimmy Leblanc,74.0,Widowed,Associate Degree,3,Former,Moderate,Unemployed,6756.03,Low,Unhealthy,Poor,Yes,No,Yes,No
+Elizabeth George,34.0,Married,Bachelor's Degree,0,Former,Moderate,Employed,105546.39,Moderate,Moderate,Fair,No,No,No,No
+Karen Taylor,34.0,Married,Master's Degree,3,Non-smoker,Moderate,Unemployed,6222.73,Low,Healthy,Poor,Yes,No,No,No
+Donna Jacobs,42.0,Married,High School,3,Non-smoker,Sedentary,Unemployed,19532.59,Moderate,Unhealthy,Fair,No,No,No,Yes
+Mckenzie Harris,72.0,Married,Bachelor's Degree,1,Non-smoker,Moderate,Unemployed,12426.97,Moderate,Moderate,Poor,Yes,No,Yes,Yes
+Ryan Thompson,77.0,Married,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,"$68,857.86",Moderate,Unhealthy,Fair,No,No,No,No
+Jessica Gonzalez,73.0,Married,Associate Degree,0,Former,Sedentary,Employed,"$52,973.62",,Unhealthy,Good,No,No,Yes,No
+Elizabeth Mcgrath,72.0,Married,Bachelor's Degree,0,Non-smoker,Moderate,Employed,"$88,977.50",Moderate,Healthy,Fair,No,Yes,No,No
+David Ryan,64.0,Married,High School,3,Former,Moderate,Unemployed,"$22,606.43",Moderate,Unhealthy,Poor,No,No,Yes,No
+James Harris,24.0,Single,High School,0,Current,Active,Employed,"$41,619.35",High,Unhealthy,Fair,No,No,No,No
+Barbara Vang,42.0,Married,,1,Current,Moderate,Employed,"$99,783.88",High,Moderate,Fair,Yes,No,No,Yes
+Ronald Martinez,68.0,Married,Associate Degree,2,Non-smoker,Sedentary,Employed,"$41,018.77",Moderate,Unhealthy,Poor,Yes,Yes,No,No
+Jeffrey Hanson,30.0,Married,Bachelor's Degree,1,Non-smoker,Moderate,Employed,"$88,157.27",Moderate,Healthy,Poor,No,No,No,No
+Michael Garcia,44.0,Divorced,Bachelor's Degree,3,Non-smoker,Moderate,Employed,"$59,781.52",Low,Healthy,Good,No,No,No,No
+Elizabeth Harper,52.0,Married,High School,3,Non-smoker,Moderate,,"$23,214.28",Moderate,Unhealthy,Poor,Yes,No,No,No
+Paula Jones,35.0,Married,High School,2,Former,Sedentary,Employed,"$29,608.16",Low,Unhealthy,Fair,No,No,Yes,No
+Joshua Walker,60.0,Married,Master's Degree,0,Non-smoker,Sedentary,Unemployed,"$21,977.51",Low,Moderate,Good,Yes,No,No,No
+Kyle Carter,69.0,Married,Master's Degree,1,Non-smoker,Sedentary,Unemployed,"$13,157.26",Moderate,Unhealthy,Fair,Yes,No,No,No
+Travis Clark,32.0,Married,Master's Degree,2,Non-smoker,Sedentary,Employed,"$84,891.67",Moderate,Unhealthy,Poor,No,No,No,Yes
+Andrew Pena,37.0,Married,PhD,0,Current,Active,Employed,"$156,782.49",Low,Moderate,Fair,Yes,No,No,No
+Emily Fleming,61.0,Married,High School,3,Non-smoker,Sedentary,Employed,"$30,606.79",Low,Unhealthy,Fair,Yes,No,Yes,Yes
+William Ramos,52.0,Married,Master's Degree,0,Former,Sedentary,Employed,"$102,525.24",High,Unhealthy,Good,No,No,No,Yes
+Debbie Barrett,67.0,Widowed,Master's Degree,2,Non-smoker,Moderate,Employed,"$150,536.01",Moderate,Moderate,Fair,No,No,No,No
+Gary Wade,59.0,Widowed,Bachelor's Degree,3,Non-smoker,Sedentary,Unemployed,"$14,910.15",High,Moderate,Fair,Yes,No,Yes,No
+Teresa Thompson,45.0,Married,High School,2,Non-smoker,Sedentary,Unemployed,"$3,103.92",High,Unhealthy,Fair,No,No,Yes,No
+David King,18.0,Single,High School,0,Non-smoker,Active,Employed,"$28,798.13",Low,Unhealthy,Fair,No,Yes,No,No
+Peggy Hawkins,42.0,Married,Bachelor's Degree,1,Former,Sedentary,Employed,"$69,505.02",Moderate,Moderate,Fair,No,Yes,No,No
+Elizabeth Jones,60.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Employed,"$80,136.17",Low,Moderate,Fair,No,No,No,No
+Jessica Beck,74.0,Married,High School,2,Former,Moderate,Employed,"$32,258.07",Low,Moderate,Fair,Yes,No,No,Yes
+Megan Melendez,38.0,Divorced,High School,2,Non-smoker,Sedentary,Employed,"$44,841.15",High,Moderate,Good,Yes,No,No,Yes
+William Smith,70.0,Married,Bachelor's Degree,1,,Moderate,Employed,"$93,337.28",High,Moderate,Poor,Yes,No,No,No
+Daniel Wells,77.0,Widowed,High School,1,Non-smoker,Sedentary,Unemployed,"$23,289.62",High,Unhealthy,Poor,Yes,No,Yes,Yes
+Margaret Brown,34.0,Married,Bachelor's Degree,1,Former,Moderate,Employed,"$71,707.24",Moderate,Healthy,Poor,No,No,Yes,No
+Brad Hill,67.0,Widowed,Bachelor's Degree,0,Non-smoker,Sedentary,Unemployed,"$18,327.17",High,Moderate,Fair,No,No,No,No
+John Munoz,42.0,Married,High School,3,Former,Sedentary,Employed,"$44,891.73",Moderate,Unhealthy,Fair,No,No,No,Yes
+Christopher Johnson,44.0,Divorced,High School,2,Non-smoker,Active,Unemployed,"$29,375.17",Moderate,Moderate,Fair,No,No,No,Yes
+Andre Mccormick,75.0,Married,Master's Degree,1,Non-smoker,Moderate,Employed,"$153,333.39",Low,Moderate,Poor,No,Yes,No,No
+Edward Smith,45.0,Divorced,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,"$102,375.49",High,Moderate,Good,No,Yes,No,No
+Jodi Perez,39.0,Single,Bachelor's Degree,0,Current,Sedentary,Employed,"$87,571.68",High,Unhealthy,Good,Yes,Yes,No,Yes
+Christopher Taylor,25.0,Single,High School,0,Non-smoker,Active,Employed,"$30,422.47",Moderate,Unhealthy,Fair,No,No,No,No
+Kevin Werner,74.0,Married,Master's Degree,1,Former,Sedentary,Unemployed,"$21,900.23",Moderate,Unhealthy,Poor,Yes,No,No,No
+Julie Watson,51.0,Married,Bachelor's Degree,0,Non-smoker,Active,Unemployed,"$15,130.23",,Moderate,Good,No,No,No,No
+Bridget Owen,67.0,Married,PhD,0,Non-smoker,Moderate,Employed,"$140,907.05",Moderate,Healthy,Good,Yes,No,No,No
+Scott Calhoun,78.0,Married,Master's Degree,0,Non-smoker,Sedentary,Unemployed,"$23,005.10",,Unhealthy,Fair,No,Yes,Yes,Yes
+Alex Smith,47.0,Married,,2,Former,Moderate,,"$40,290.54",Moderate,Unhealthy,Fair,Yes,No,No,No
+Bryan Cervantes,80.0,Married,Bachelor's Degree,0,Non-smoker,Moderate,Employed,"$87,685.93",Moderate,Moderate,Good,No,Yes,No,No
+Kara Nichols,74.0,Widowed,Associate Degree,2,Non-smoker,Sedentary,Unemployed,"$3,868.77",High,Unhealthy,Poor,No,Yes,No,No
+Maria Miller,23.0,Single,Master's Degree,0,Former,Moderate,Employed,"$111,488.95",Moderate,Healthy,Good,No,No,No,No
+Andrew Kelley,46.0,Married,High School,3,Current,Moderate,Unemployed,"$20,883.19",Moderate,Moderate,Fair,Yes,No,No,No
+Adam Herrera,48.0,Married,Bachelor's Degree,0,Former,Moderate,Unemployed,$868.51,Moderate,Healthy,Good,No,Yes,No,No
+Michelle Buchanan DDS,42.0,Married,Associate Degree,1,Former,Sedentary,Employed,"$33,091.95",Moderate,Unhealthy,Fair,No,Yes,Yes,No
+Jason Avery,21.0,Married,Associate Degree,0,Current,Active,Unemployed,"$29,393.68",Moderate,Unhealthy,Good,No,Yes,No,No
+James Jackson,46.0,Divorced,Bachelor's Degree,2,Former,Active,Employed,"$72,802.59",Moderate,Healthy,Good,Yes,Yes,Yes,Yes
+Christine Hoffman,73.0,Widowed,Master's Degree,3,Non-smoker,Sedentary,Employed,"$144,605.33",Low,Unhealthy,Fair,No,Yes,No,No
+Diane Bailey,48.0,Married,Master's Degree,0,Non-smoker,Active,Employed,"$155,518.37",Low,Healthy,Good,No,No,Yes,No
+Jessica Gonzalez,28.0,Single,Associate Degree,0,Non-smoker,Sedentary,Unemployed,"$22,714.22",Low,Moderate,Fair,No,Yes,No,No
+David Klein,66.0,Widowed,Bachelor's Degree,0,Non-smoker,Moderate,Employed,67237.62,,Healthy,Good,No,No,No,Yes
+Erin Allen,49.0,Married,High School,0,,Sedentary,Employed,31757.16,Moderate,Moderate,Good,No,Yes,No,No
+Elizabeth Taylor,21.0,Single,High School,0,,Sedentary,Unemployed,19105.13,Moderate,Moderate,Fair,No,No,No,No
+Joanne Barry,41.0,Married,High School,1,Non-smoker,Sedentary,Employed,23621.34,Low,Unhealthy,Fair,Yes,No,No,No
+Gabrielle Smith,75.0,Married,Bachelor's Degree,1,Former,Sedentary,Employed,93265.27,Moderate,Unhealthy,Poor,No,No,Yes,No
+Thomas Davidson,33.0,Married,Bachelor's Degree,4,Non-smoker,Moderate,Unemployed,5759.59,High,Moderate,Poor,Yes,No,No,No
+Alicia Sanders,41.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Unemployed,3416.21,Low,Unhealthy,Fair,Yes,No,No,No
+Marissa Fowler,60.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Employed,96553.87,High,Moderate,Poor,No,No,No,No
+Joseph Garcia,53.0,Married,High School,2,Non-smoker,Moderate,Employed,43953.97,Moderate,Moderate,Fair,Yes,No,No,No
+Trevor Robinson,23.0,Single,Bachelor's Degree,0,Non-smoker,Moderate,Employed,77048.12,Low,Moderate,Fair,No,No,No,No
+Jessica Robinson,26.0,Single,High School,0,Former,Moderate,Employed,25170.8,Moderate,Unhealthy,Good,No,No,No,Yes
+John York,44.0,Married,High School,0,,Moderate,Employed,27355.12,Low,Moderate,Good,No,No,No,No
+Jack Collins,66.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,79239.87,High,Healthy,Fair,No,No,No,Yes
+Marie Maddox,48.0,Divorced,Master's Degree,0,Former,Sedentary,Employed,140611.7,High,Unhealthy,Good,No,No,No,No
+Sophia Golden,33.0,Divorced,Bachelor's Degree,1,Current,Active,Employed,56432.62,High,Moderate,Good,No,Yes,No,Yes
+Roy Thornton,62.0,Widowed,Bachelor's Degree,2,Former,Sedentary,Employed,66897.72,Moderate,Unhealthy,Good,No,Yes,Yes,Yes
+Timothy Carter,30.0,Married,Associate Degree,0,Non-smoker,Moderate,Employed,38586.17,Moderate,Unhealthy,Fair,No,No,No,No
+Perry Mccullough,38.0,Married,Bachelor's Degree,2,Non-smoker,Active,Employed,54462.44,Moderate,Healthy,Poor,Yes,No,Yes,No
+Brandy Patterson,58.0,Divorced,Master's Degree,1,Non-smoker,Moderate,Unemployed,301.59,Low,Healthy,Poor,No,No,No,Yes
+Alan Jones,68.0,Married,Associate Degree,1,,Sedentary,Employed,65634.18,Moderate,Moderate,Poor,No,No,Yes,Yes
+Savannah Wright,42.0,Married,High School,0,Non-smoker,Sedentary,Unemployed,1758.53,Low,Unhealthy,Fair,No,No,Yes,No
+Matthew Dickerson,31.0,Married,Master's Degree,1,Current,Active,Employed,100010.6,Moderate,Unhealthy,Poor,No,No,Yes,No
+Brandon Norris,75.0,Married,Master's Degree,0,Former,Sedentary,Employed,127721.72,Low,Moderate,Fair,No,Yes,No,No
+Peter Miller,30.0,Divorced,Bachelor's Degree,3,Non-smoker,Moderate,Employed,55700.6,Moderate,Moderate,Fair,No,Yes,Yes,No
+Jeffrey Curry,57.0,Married,Associate Degree,1,Non-smoker,Active,Unemployed,15974.55,Low,Unhealthy,Fair,No,No,No,No
+Kyle Rogers,51.0,Divorced,Master's Degree,1,Non-smoker,Sedentary,Employed,122833.59,High,Moderate,Good,No,No,No,No
+Erin Gutierrez,40.0,Widowed,High School,1,,Moderate,Employed,28809.87,Low,Unhealthy,Good,No,No,No,No
+Deanna Lowery,18.0,Single,High School,0,Former,Active,Employed,36243.89,Low,Unhealthy,Good,No,No,No,No
+Annette Walker,31.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,83132.89,Moderate,Moderate,Poor,No,Yes,No,Yes
+Hunter Pierce,45.0,Married,Master's Degree,2,Former,Sedentary,Unemployed,5492.79,Moderate,Moderate,Poor,Yes,No,No,No
+Mandy Myers,50.0,Married,High School,3,Non-smoker,Moderate,Unemployed,23618.08,High,Moderate,Poor,Yes,No,No,Yes
+Debra Howell,24.0,Single,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,82306.66,High,Unhealthy,Fair,No,No,No,No
+Henry Williams,74.0,Widowed,Bachelor's Degree,1,Former,Sedentary,Employed,92569.79,Moderate,Unhealthy,Good,No,Yes,No,Yes
+Courtney Castillo,23.0,Married,High School,0,Former,Active,Employed,28367.85,Moderate,Moderate,Good,No,Yes,No,No
+Brittany Campbell,28.0,Single,Associate Degree,0,Non-smoker,Moderate,Employed,39104.87,Low,Unhealthy,Fair,No,No,No,No
+Mackenzie Eaton,42.0,Married,Master's Degree,2,Former,Moderate,Employed,110144.46,,Healthy,Poor,No,No,Yes,Yes
+Dana Robertson,44.0,Divorced,Associate Degree,3,Former,Active,Employed,60962.59,Low,Moderate,Fair,No,No,No,Yes
+Jason Powers,46.0,Married,Master's Degree,2,Former,Sedentary,Employed,96924.84,High,Unhealthy,Poor,No,No,No,Yes
+Jared Shepard,60.0,Widowed,Master's Degree,3,Non-smoker,Moderate,Employed,90236.02,High,Healthy,Good,No,No,Yes,No
+Denise Williams,79.0,Married,Associate Degree,0,Non-smoker,Moderate,Unemployed,11022.34,High,Moderate,Fair,Yes,No,No,Yes
+Derek Johnson,57.0,Married,PhD,3,Non-smoker,Active,Employed,121280.33,Moderate,Moderate,Fair,No,Yes,No,No
+Emily Pace,18.0,Single,High School,0,Non-smoker,Moderate,Employed,30572.11,Low,Unhealthy,Good,No,No,Yes,No
+Karen Tucker,73.0,Widowed,Bachelor's Degree,3,Non-smoker,Sedentary,Employed,91876.97,High,Moderate,Fair,No,Yes,Yes,No
+Tyler Moore,19.0,Single,High School,0,Non-smoker,Sedentary,Employed,28588.46,Low,Moderate,Fair,No,Yes,No,No
+Ann Burns,52.0,Married,Associate Degree,1,Non-smoker,Moderate,Unemployed,15719.19,High,Moderate,Fair,No,No,Yes,No
+Shawn Smith,50.0,Married,Master's Degree,2,Non-smoker,Moderate,Unemployed,27380.66,High,Healthy,Fair,No,No,No,No
+Jason Miller,37.0,Married,High School,2,Current,Moderate,Unemployed,21843.36,Moderate,Moderate,Fair,Yes,No,No,Yes
+Chad Owens,20.0,Single,Associate Degree,0,Current,Active,Employed,40147.45,Low,Unhealthy,Fair,Yes,Yes,No,No
+Jonathan Richards,69.0,Married,Associate Degree,1,Non-smoker,Sedentary,Unemployed,14688.6,Low,Unhealthy,Poor,No,No,No,No
+Anthony Green,58.0,Married,Master's Degree,1,Non-smoker,Moderate,Employed,104334.97,High,Moderate,Fair,Yes,No,No,Yes
+Robert Brown,48.0,Married,Bachelor's Degree,3,Non-smoker,Moderate,Employed,75614.24,Moderate,Healthy,Poor,No,Yes,No,Yes
+William Miller,61.0,Married,High School,2,Non-smoker,Sedentary,Employed,33421.99,Moderate,Unhealthy,Poor,No,No,No,No
+Kimberly Houston,79.0,Widowed,High School,0,Non-smoker,Sedentary,Unemployed,1837.01,Low,Unhealthy,Poor,Yes,No,No,Yes
+Cynthia Foley,25.0,Married,Master's Degree,0,,Moderate,Employed,118352.06,Moderate,Healthy,Good,No,Yes,No,No
+Billy Jones,77.0,Widowed,Bachelor's Degree,2,Former,Sedentary,Unemployed,24484.38,Low,Moderate,Poor,Yes,No,No,No
+Matthew Weiss,30.0,Single,Bachelor's Degree,0,Non-smoker,Active,Employed,63359.09,Low,Healthy,Good,Yes,Yes,No,No
+Ronald Thompson,32.0,Married,Bachelor's Degree,1,Current,Sedentary,Employed,102852.79,High,Moderate,Fair,No,Yes,No,No
+Nicole Flores,31.0,Married,High School,1,Former,Sedentary,Employed,24799.09,High,Moderate,Fair,No,No,No,No
+Anthony Jackson,33.0,Single,High School,0,Current,Sedentary,Employed,40863.77,,Healthy,Poor,No,No,No,No
+Tara Tucker,40.0,Married,Master's Degree,0,Former,Moderate,Employed,127907.7,Moderate,Healthy,Good,No,No,Yes,No
+Christopher Gomez,46.0,Married,Associate Degree,3,Non-smoker,Sedentary,Employed,49525.16,High,Unhealthy,Fair,Yes,No,No,No
+Carlos Roth,55.0,Divorced,Master's Degree,3,Non-smoker,Active,Unemployed,27646.34,Low,Healthy,Fair,No,No,No,No
+Michael Cooper,55.0,Divorced,Master's Degree,0,Non-smoker,Moderate,Unemployed,17735.71,,Moderate,Poor,No,No,No,No
+Priscilla Payne,37.0,Married,Associate Degree,1,Non-smoker,Moderate,Employed,40939.68,Moderate,Moderate,Fair,Yes,No,Yes,Yes
+Adam Johnson,70.0,Married,Associate Degree,3,,Sedentary,Employed,40758.1,High,Unhealthy,Poor,No,No,No,No
+Mark Reeves,49.0,Married,High School,2,Non-smoker,Moderate,Employed,39504.3,Low,Moderate,Poor,No,No,No,No
+Leslie Nguyen,34.0,Married,Master's Degree,4,Current,Sedentary,Employed,103925.12,Moderate,Moderate,Poor,No,No,No,No
+Ryan Daniels,57.0,Divorced,Associate Degree,2,Non-smoker,Moderate,Employed,58334.31,Moderate,Unhealthy,Good,No,Yes,No,No
+Alan Garcia,31.0,Married,PhD,1,Current,Moderate,Employed,177029.4,High,Unhealthy,Poor,No,No,No,No
+David Davis,52.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Employed,73440.04,Low,Unhealthy,Poor,No,No,Yes,Yes
+Ian Rios,31.0,Single,Bachelor's Degree,0,Non-smoker,Sedentary,Unemployed,29931.16,Moderate,Moderate,Fair,No,Yes,No,Yes
+Jason Hall,71.0,Widowed,High School,2,Non-smoker,Sedentary,Employed,32386.13,Moderate,Moderate,Fair,Yes,Yes,Yes,Yes
+Ebony Anderson,38.0,Single,Bachelor's Degree,0,Current,Sedentary,Employed,76611.45,Moderate,Unhealthy,Fair,No,No,No,Yes
+Daniel Hernandez,56.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Employed,104139.7,High,Unhealthy,Fair,No,No,Yes,Yes
+Angel Holmes,53.0,Divorced,Bachelor's Degree,1,Non-smoker,Sedentary,Employed,88417.13,Moderate,Unhealthy,Good,Yes,No,No,No
+Gabriel Hall,57.0,Divorced,Master's Degree,0,Former,Sedentary,,129459.98,High,Unhealthy,Good,Yes,No,No,No
+Jonathan Kent,36.0,Married,High School,3,,Moderate,Unemployed,11107.89,Low,Moderate,Fair,Yes,No,No,Yes
+Mary Henry MD,31.0,Married,PhD,4,Non-smoker,Moderate,Employed,209894.25,Moderate,Moderate,Poor,No,No,No,No
+Kimberly Wood,21.0,Single,Bachelor's Degree,0,Non-smoker,Active,Unemployed,27296.26,Moderate,Moderate,Fair,No,Yes,No,No
+Rebekah Brewer,49.0,Married,Master's Degree,1,Non-smoker,Moderate,Employed,118749.29,Moderate,Healthy,Fair,No,No,Yes,Yes
+Taylor Gallegos,66.0,Married,Bachelor's Degree,1,Non-smoker,Sedentary,Employed,64169.33,High,Unhealthy,Poor,Yes,No,No,Yes
+David Velasquez,41.0,Married,Master's Degree,3,Non-smoker,Sedentary,,141520.49,High,Unhealthy,Poor,Yes,No,No,No
+Mr. Damon Contreras,24.0,Single,Associate Degree,0,Current,Active,Employed,63943.37,Moderate,Healthy,Good,Yes,No,Yes,Yes
+Leonard Smith,22.0,Single,High School,0,Non-smoker,Active,Employed,26142.66,Low,Moderate,Good,No,No,Yes,Yes
+Phillip Watkins MD,36.0,Divorced,Bachelor's Degree,1,Current,Moderate,Employed,63272.65,Low,Moderate,Poor,No,Yes,No,Yes
+Barbara Coleman,21.0,Single,Bachelor's Degree,0,Former,Sedentary,Employed,59183.8,High,Moderate,Fair,No,No,Yes,No
+Brianna Gregory,69.0,Widowed,Master's Degree,2,Non-smoker,Sedentary,Unemployed,25825.39,High,Unhealthy,Poor,No,No,No,No
+Anthony Miles,51.0,Married,Master's Degree,0,Non-smoker,Moderate,Employed,153942.03,Moderate,Healthy,Good,Yes,No,Yes,No
+Diana Miller,75.0,Widowed,Master's Degree,2,Former,Sedentary,Unemployed,21554.6,Moderate,Unhealthy,Fair,Yes,Yes,Yes,Yes
+Christina Gill,33.0,Married,Associate Degree,2,Non-smoker,Moderate,Employed,64262.34,Moderate,Unhealthy,Poor,No,Yes,Yes,No
+David Gutierrez,43.0,Divorced,Master's Degree,2,Non-smoker,Moderate,Employed,149367.83,Low,Healthy,Fair,No,Yes,No,Yes
+Matthew Rogers,61.0,Married,PhD,2,Former,Sedentary,Employed,209701.03,High,Unhealthy,Fair,No,No,No,No
+Matthew Cantu,41.0,Married,Bachelor's Degree,3,Current,Active,Unemployed,28463.7,Low,Unhealthy,Good,No,Yes,No,No
+Madison Jackson,58.0,Married,,3,Non-smoker,Sedentary,Employed,47080.14,Moderate,Unhealthy,Poor,Yes,Yes,Yes,Yes
+Jeanette Smith,34.0,Married,Master's Degree,1,Current,Sedentary,Employed,94116.73,Low,Unhealthy,Fair,No,No,Yes,No
+Maureen Allen,27.0,Married,High School,2,Current,Active,Employed,27359.71,High,Moderate,Poor,Yes,Yes,No,No
+Henry Chan,52.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,101035.23,Moderate,Healthy,Poor,No,Yes,Yes,Yes
+Elizabeth Weber,56.0,Divorced,Bachelor's Degree,2,Former,Moderate,Employed,88613.95,High,Moderate,Fair,No,No,No,Yes
+Taylor Carlson,54.0,Married,Bachelor's Degree,3,Non-smoker,Moderate,Unemployed,16268.69,High,Healthy,Fair,No,No,No,Yes
+Jaclyn Stewart,49.0,Married,Bachelor's Degree,3,Current,Moderate,Unemployed,6356.06,High,Unhealthy,Poor,No,Yes,No,Yes
+Leslie Quinn,22.0,Single,Associate Degree,0,Current,Active,Employed,36440.75,High,Unhealthy,Poor,No,No,No,No
+Timothy White,58.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,58580.36,Low,Moderate,Fair,No,Yes,No,No
+Samantha Rice,51.0,Married,High School,1,Former,Moderate,Employed,24259.89,Low,Moderate,Fair,No,Yes,Yes,No
+Brandi Rivera,61.0,Married,Associate Degree,0,Non-smoker,Sedentary,Employed,36111.65,Moderate,Moderate,Fair,No,Yes,No,No
+Carlos Robinson,74.0,Married,Bachelor's Degree,1,Non-smoker,Moderate,Employed,95689.19,Low,Healthy,Poor,No,No,No,Yes
+Monica Curry,41.0,Married,High School,3,Non-smoker,Moderate,Unemployed,21820.9,,Moderate,Poor,No,No,Yes,No
+Heidi Rowe,58.0,Divorced,Bachelor's Degree,1,Non-smoker,Active,Unemployed,19592.87,Moderate,Moderate,Poor,Yes,No,No,No
+Stephen Garcia Jr.,50.0,Divorced,Bachelor's Degree,3,Non-smoker,Moderate,Employed,68205.56,Moderate,Healthy,Fair,No,Yes,Yes,No
+Vincent Anderson,71.0,Married,Associate Degree,2,Non-smoker,Moderate,Unemployed,3560.76,Moderate,Unhealthy,Poor,No,No,Yes,No
+Melissa Webster,66.0,Married,High School,3,Non-smoker,Sedentary,Employed,39531.2,Moderate,Unhealthy,Fair,No,Yes,No,Yes
+James Miller,59.0,Married,Master's Degree,2,Non-smoker,Sedentary,Unemployed,5558.23,Low,Moderate,Fair,Yes,No,No,Yes
+Angela Moran,51.0,Married,,3,Non-smoker,Sedentary,Employed,39295.32,High,Moderate,Fair,No,Yes,Yes,No
+Joseph Randall,70.0,Widowed,High School,3,Non-smoker,Sedentary,Employed,37751.33,Low,Unhealthy,Fair,No,No,Yes,No
+Melissa Jones,23.0,Married,High School,2,Former,Active,Employed,35899.7,Moderate,Moderate,Poor,No,Yes,No,No
+Teresa Ayala,65.0,Married,Associate Degree,3,,Moderate,Employed,54607.09,Moderate,Moderate,Fair,No,No,Yes,No
+Donald Padilla,21.0,Single,Bachelor's Degree,0,Former,Active,Employed,76737.28,High,Healthy,Good,No,Yes,Yes,Yes
+Timothy White,80.0,Married,Associate Degree,1,Non-smoker,Moderate,Unemployed,21476.05,Moderate,Unhealthy,Fair,Yes,No,No,No
+Tina Brown,56.0,Divorced,High School,2,Former,Moderate,Unemployed,21389.56,Low,Unhealthy,Fair,Yes,Yes,No,Yes
+Lisa Nunez,34.0,Married,Associate Degree,4,Former,Sedentary,Employed,51653.03,Moderate,Unhealthy,Fair,Yes,No,No,Yes
+Catherine Smith,80.0,Widowed,,0,Non-smoker,Moderate,Employed,37628.62,Low,Moderate,Good,No,No,No,No
+Kevin Ellis,53.0,Married,Associate Degree,1,Non-smoker,Active,Employed,46953.9,Moderate,Unhealthy,Poor,No,No,No,No
+Lauren Page,75.0,Married,High School,1,Non-smoker,Sedentary,Employed,43771.68,Moderate,Moderate,Poor,No,No,No,No
+Amanda Garcia,23.0,Single,Bachelor's Degree,0,Current,Moderate,Employed,94051.77,,Unhealthy,Fair,No,No,No,Yes
+Joseph Baldwin,39.0,Married,High School,3,Non-smoker,Sedentary,Employed,40362.1,Moderate,Unhealthy,Fair,No,No,No,Yes
+Rebekah Anderson,60.0,Married,Bachelor's Degree,3,,Sedentary,Employed,76581.27,Low,Unhealthy,Poor,No,Yes,Yes,No
+Richard Franklin,72.0,Married,Master's Degree,0,Non-smoker,Moderate,Employed,142509.57,Moderate,Healthy,Good,No,No,No,No
+Shannon Dudley,47.0,Widowed,High School,2,Non-smoker,Moderate,Employed,25466.73,Low,Moderate,Good,No,Yes,Yes,No
+Christine Patterson,72.0,Widowed,Bachelor's Degree,3,Non-smoker,Sedentary,Employed,105242.97,High,Moderate,Fair,Yes,Yes,Yes,No
+Daniel Payne,73.0,Widowed,Master's Degree,2,Non-smoker,Sedentary,Unemployed,10539.86,Low,Unhealthy,Fair,Yes,No,No,No
+Cheryl Kennedy,22.0,Single,Associate Degree,0,Former,Active,Unemployed,14113.85,,Moderate,Fair,No,Yes,No,No
+Molly Morales,78.0,Married,High School,2,,Sedentary,Employed,27577.16,Low,Moderate,Fair,No,No,No,No
+Katrina Thompson,28.0,Single,Bachelor's Degree,0,Current,Sedentary,Unemployed,17956.03,Low,Moderate,Poor,Yes,No,No,No
+Nicole Manning,51.0,Married,Associate Degree,0,Non-smoker,Sedentary,Employed,45637.28,Low,Unhealthy,Good,No,No,No,Yes
+Derrick Yang,78.0,Widowed,,1,Non-smoker,Moderate,Unemployed,28591.16,High,Unhealthy,Fair,No,No,Yes,Yes
+Melissa Doyle,39.0,Divorced,Associate Degree,2,Former,Sedentary,Unemployed,6184.94,Low,Unhealthy,Poor,Yes,No,No,No
+Jake Griffin,77.0,Married,,2,Former,Moderate,Unemployed,11538.51,High,Moderate,Fair,No,No,No,No
+Stacey Gallegos,26.0,Single,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,59459.41,Low,Moderate,Fair,No,No,No,No
+Carol Wilkerson,43.0,Married,PhD,1,Former,Moderate,Unemployed,20598.42,High,Moderate,Poor,No,No,No,No
+Autumn Cooper,43.0,Divorced,Master's Degree,0,Former,Sedentary,Employed,88640.27,Moderate,Moderate,Fair,No,Yes,No,No
+Kimberly Harris,56.0,Divorced,Bachelor's Degree,0,Former,Sedentary,,19201.2,High,Unhealthy,Fair,No,No,Yes,No
+Anthony Lopez,76.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,105665.31,Moderate,Healthy,Fair,No,Yes,No,No
+Rick Ross,66.0,Married,Bachelor's Degree,2,,Sedentary,Unemployed,15551.98,Moderate,Unhealthy,Fair,No,Yes,No,Yes
+Sheila Watts,77.0,Married,Bachelor's Degree,2,,Moderate,Unemployed,14668.79,Moderate,Healthy,Poor,No,No,No,No
+Brent Woods,32.0,Single,High School,0,Current,Active,Employed,34701.46,High,Unhealthy,Fair,Yes,Yes,Yes,No
+Ann Adams,22.0,Single,High School,0,Current,Active,Unemployed,18512.57,Moderate,Moderate,Fair,No,Yes,No,Yes
+Cassandra Kemp,42.0,Married,High School,2,Non-smoker,Moderate,Employed,41957.28,Moderate,Unhealthy,Poor,Yes,No,No,No
+Wesley Roberts,33.0,Married,Bachelor's Degree,4,Former,Moderate,Employed,103453.62,Low,Moderate,Poor,Yes,No,Yes,No
+Heidi Pham,46.0,Married,High School,1,Current,Active,Employed,42954.4,Moderate,Healthy,Good,Yes,No,No,No
+Ashley Johnson,34.0,Divorced,High School,3,Current,Moderate,,28602.22,Low,Moderate,Good,No,Yes,No,Yes
+Amy Mccoy DVM,20.0,Married,Associate Degree,1,Current,Active,Employed,62487.06,Low,Healthy,Fair,No,No,No,No
+Jonathan Mcdonald,27.0,Single,Associate Degree,0,Current,Active,Employed,59936.46,Low,Healthy,Fair,No,Yes,No,Yes
+Jeffrey Stevens,26.0,Married,Associate Degree,0,Former,Sedentary,Employed,48413.07,Moderate,Moderate,Good,No,No,No,No
+Tiffany Hill,32.0,Married,Master's Degree,2,Non-smoker,Moderate,Employed,100225.46,Low,Healthy,Fair,Yes,No,Yes,No
+Paul Williams,54.0,Widowed,PhD,3,Non-smoker,Active,Employed,128771.55,Moderate,Healthy,Good,No,No,No,No
+Hannah Johnson,45.0,Divorced,Bachelor's Degree,3,Non-smoker,Sedentary,Unemployed,28651.11,High,Moderate,Fair,No,Yes,No,No
+Stacy Scott,48.0,Married,Associate Degree,1,Non-smoker,Moderate,Employed,47992.89,,Moderate,Poor,No,No,No,No
+Matthew Jones,24.0,Single,High School,0,,Active,Unemployed,17685.48,Moderate,Moderate,Fair,No,Yes,No,No
+Vincent Gill,36.0,Married,High School,0,Current,Sedentary,Employed,23884.21,Low,Moderate,Good,No,Yes,No,No
+Yvonne Serrano,53.0,Divorced,Bachelor's Degree,1,Non-smoker,Sedentary,Employed,54842.75,Low,Moderate,Fair,No,No,Yes,No
+Christina Khan,51.0,Married,Bachelor's Degree,0,Former,Moderate,,1170.42,Low,Healthy,Good,No,No,No,No
+Kimberly Clark,70.0,Married,High School,3,Non-smoker,Moderate,Employed,40145.77,Low,Unhealthy,Fair,No,No,Yes,No
+Ivan Rivera,18.0,Single,High School,0,Former,Active,Unemployed,28757.39,High,Unhealthy,Poor,Yes,No,Yes,No
+John Young,68.0,Widowed,Bachelor's Degree,3,Non-smoker,Moderate,Employed,104677.31,Low,Healthy,Fair,Yes,No,No,Yes
+Nancy Mayo,57.0,Divorced,High School,2,Non-smoker,Moderate,Employed,35444.12,Low,Moderate,Good,No,No,No,No
+William Garcia,51.0,Married,Bachelor's Degree,0,Non-smoker,Active,Employed,56483.24,Moderate,Moderate,Fair,No,No,No,No
+Tiffany Howard,47.0,Married,Master's Degree,0,Current,Moderate,Unemployed,17528.19,High,Unhealthy,Poor,No,Yes,Yes,Yes
+Kelly Daniel,80.0,Married,Associate Degree,3,Non-smoker,Sedentary,Unemployed,10330.31,Low,Moderate,Fair,Yes,No,No,No
+Teresa Wright,75.0,Widowed,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,60619.41,High,Moderate,Good,Yes,No,No,Yes
+Hannah Johnson,22.0,Married,High School,0,Former,Moderate,Unemployed,27656.77,Low,Moderate,Good,No,No,Yes,No
+Jodi Cordova,28.0,Single,Bachelor's Degree,0,Non-smoker,Moderate,Employed,93766.55,Low,Healthy,Good,No,No,No,Yes
+Eric Buckley,78.0,Married,Associate Degree,0,Non-smoker,Sedentary,Unemployed,10465.19,Low,Unhealthy,Good,No,No,No,No
+Ricky Horne,22.0,Married,High School,0,Current,Moderate,Employed,40491.15,Moderate,Unhealthy,Poor,Yes,Yes,No,No
+Nicole Flynn,55.0,Married,Bachelor's Degree,0,Non-smoker,Sedentary,Unemployed,5859.06,Moderate,Unhealthy,Good,No,No,Yes,No
+John Floyd,51.0,Married,Bachelor's Degree,3,Non-smoker,Sedentary,Unemployed,11598.4,Moderate,Unhealthy,Fair,No,No,No,No
+Joseph Medina,51.0,Married,Bachelor's Degree,1,Non-smoker,Moderate,Employed,77772.25,Moderate,Healthy,Poor,No,Yes,No,Yes
+Jennifer Jones,56.0,Divorced,High School,2,Non-smoker,Moderate,,23253.93,Low,Unhealthy,Good,Yes,No,No,No
+Michelle Collins,66.0,Widowed,PhD,0,Non-smoker,Sedentary,Unemployed,19521.09,Moderate,Unhealthy,Poor,No,No,No,No
+Jessica Thompson,65.0,Widowed,Master's Degree,2,Non-smoker,Moderate,Unemployed,27470.54,Low,Healthy,Fair,Yes,No,No,No
+Anita Davidson,26.0,Single,Bachelor's Degree,0,Non-smoker,Moderate,Employed,82641.26,Low,Healthy,Good,Yes,No,No,No
+Tiffany Williams,34.0,Married,Master's Degree,1,Current,Moderate,Employed,99586.5,Moderate,Healthy,Fair,No,No,Yes,Yes
+Gail Sutton,61.0,Widowed,Master's Degree,1,Non-smoker,Moderate,Employed,122292.81,Low,Healthy,Good,Yes,No,Yes,No
+Kayla Durham,60.0,Married,High School,1,Non-smoker,Moderate,Unemployed,19154.84,Moderate,Moderate,Fair,No,No,No,No
+Lisa Wolfe,65.0,Married,,2,Non-smoker,Moderate,Employed,91073.89,Low,Healthy,Fair,No,No,No,No
+Christopher Myers,61.0,Widowed,Master's Degree,2,Former,Sedentary,Employed,137586.71,High,Moderate,Fair,No,Yes,No,Yes
+Stephanie Powell,18.0,Single,High School,0,Current,Moderate,Unemployed,8084.03,High,Unhealthy,Fair,No,No,Yes,No
+Crystal Johnson,45.0,Married,Bachelor's Degree,0,Non-smoker,Active,Employed,75503.47,Low,Healthy,Fair,Yes,No,Yes,No
+John Khan,40.0,Married,High School,4,Non-smoker,Sedentary,Employed,23054.08,High,Moderate,Poor,No,No,No,No
+Richard Reyes,49.0,Married,High School,2,Former,Active,Employed,35667.75,Moderate,Moderate,Poor,Yes,No,No,Yes
+Christine Watts,51.0,Married,High School,2,Former,Moderate,Employed,39571.05,Low,Moderate,Poor,No,No,Yes,Yes
+Michelle Myers,79.0,Married,High School,3,Non-smoker,Sedentary,Unemployed,17901.43,High,Unhealthy,Poor,No,Yes,Yes,No
+Timothy Graham,56.0,Married,Bachelor's Degree,1,Non-smoker,Sedentary,Employed,74746.79,High,Unhealthy,Poor,No,Yes,No,No
+Melissa Rogers,53.0,Divorced,Bachelor's Degree,1,Non-smoker,Sedentary,Employed,98931.81,Low,Moderate,Good,No,No,No,No
+Michelle Houston,70.0,Married,Master's Degree,2,Non-smoker,Moderate,Employed,140936.21,Low,Healthy,Fair,No,No,Yes,No
+Brandi Bowers MD,67.0,Married,High School,1,Former,Sedentary,Employed,44171.63,Low,Moderate,Poor,No,No,No,No
+Juan Gonzalez,47.0,Widowed,Master's Degree,3,Current,Moderate,Employed,97369.09,Moderate,Unhealthy,Poor,Yes,No,Yes,No
+Rebecca Simon,79.0,Widowed,Associate Degree,0,Former,Sedentary,Unemployed,22054.46,Low,Moderate,Fair,No,Yes,No,No
+Raymond Parker,63.0,Widowed,High School,0,Non-smoker,Sedentary,Employed,42487.59,High,Unhealthy,Good,No,Yes,No,No
+Gabriel Peterson,65.0,Married,Master's Degree,1,Non-smoker,Sedentary,Employed,149766.4,High,Unhealthy,Poor,No,Yes,No,No
+Cody Sullivan,22.0,Single,High School,0,Current,Sedentary,Employed,26480.07,High,Moderate,Poor,No,No,No,No
+Jack Vaughn,45.0,Divorced,,1,Current,Sedentary,Unemployed,20180.72,Moderate,Moderate,Poor,No,Yes,No,Yes
+Cynthia Davis,52.0,Married,High School,3,Non-smoker,Sedentary,,34730.51,,Moderate,Fair,No,No,No,No
+George Stewart,72.0,Widowed,,0,Non-smoker,Moderate,Unemployed,28511.94,Low,Moderate,Poor,No,No,Yes,Yes
+Matthew Gallagher,60.0,Married,High School,0,Non-smoker,Sedentary,Employed,38292.23,Moderate,Moderate,Good,No,No,No,No
+David Hardy,42.0,Married,High School,2,Former,Sedentary,Employed,39623.21,Low,Unhealthy,Fair,No,No,No,No
+Barbara Smith,24.0,Single,Bachelor's Degree,0,Current,Active,Employed,84255.78,Moderate,Healthy,Fair,No,No,No,Yes
+Tamara Schwartz,71.0,Married,,3,Non-smoker,Sedentary,Employed,112452.2,Moderate,Moderate,Poor,No,No,No,No
+Christina Martin,24.0,Single,,0,Non-smoker,Sedentary,Unemployed,2060.51,Low,Unhealthy,Poor,No,No,No,No
+Hailey Garcia,52.0,Widowed,High School,1,Non-smoker,Sedentary,Unemployed,19247.45,Moderate,Unhealthy,Fair,No,No,No,No
+Darryl Freeman,52.0,Divorced,Associate Degree,0,Non-smoker,Moderate,Employed,59081.58,,Moderate,Good,No,Yes,No,No
+Kayla Alexander,71.0,Widowed,Master's Degree,0,Non-smoker,Moderate,Employed,129974.32,Low,Healthy,Good,Yes,No,No,No
+Monica Carter,45.0,Married,Master's Degree,0,Non-smoker,Active,Employed,127929.36,Low,Moderate,Fair,No,No,No,No
+Megan Sanchez,60.0,Widowed,PhD,2,,Sedentary,Employed,130661.39,Low,Moderate,Fair,Yes,Yes,Yes,No
+Sean Young,43.0,Married,Master's Degree,4,Non-smoker,Moderate,Employed,130291.07,Moderate,Healthy,Fair,No,No,No,No
+Michael Swanson,64.0,Married,High School,2,,Sedentary,Employed,42522.03,High,Unhealthy,Poor,No,No,No,No
+Gina Patrick,30.0,Married,High School,0,Non-smoker,Moderate,Employed,39109.78,Moderate,Unhealthy,Good,No,No,No,No
+Casey Flores,27.0,Single,High School,0,Non-smoker,Active,Employed,37605.8,Low,Unhealthy,Good,No,No,Yes,Yes
+Spencer Ramsey,65.0,Widowed,Bachelor's Degree,0,Non-smoker,Sedentary,Unemployed,18068.48,Low,Unhealthy,Poor,Yes,No,No,Yes
+Mary Huff,67.0,Widowed,Bachelor's Degree,0,Non-smoker,Sedentary,Employed,95165.21,Low,Moderate,Good,No,No,No,No
+Lisa Rodriguez,78.0,Widowed,Bachelor's Degree,0,Non-smoker,Sedentary,,13686.56,High,Moderate,Fair,No,No,Yes,No
+Christopher Barnes II,50.0,Divorced,Bachelor's Degree,3,Non-smoker,Moderate,Employed,74519.81,Low,Healthy,Good,No,No,No,No
+Barry Morris,78.0,Married,Master's Degree,3,Former,Sedentary,Employed,83370.91,Moderate,Unhealthy,Fair,No,No,No,Yes
+Eddie Gomez,24.0,Married,,2,Current,Moderate,Employed,68219.03,High,Unhealthy,Poor,No,Yes,No,Yes
+Jessica Baker,74.0,Married,Bachelor's Degree,2,Non-smoker,Sedentary,Employed,97844.72,Low,Unhealthy,Fair,No,Yes,No,No
+Sean Parker,41.0,Married,Associate Degree,0,Former,Moderate,Employed,35781.99,Low,Unhealthy,Fair,No,No,No,No
+Tasha Fleming,45.0,Married,High School,3,Current,Sedentary,Unemployed,3076.83,High,Unhealthy,Fair,No,Yes,Yes,No
+Julia Michael,48.0,Married,Bachelor's Degree,3,Non-smoker,Active,Employed,60069.32,Low,Healthy,Fair,No,No,Yes,No
+Oscar Williams,69.0,Married,Master's Degree,2,Former,Moderate,Unemployed,10648.65,Moderate,Healthy,Fair,No,No,No,No
+Aaron Jones,26.0,Married,High School,0,Current,Active,Employed,39766.68,High,Healthy,Poor,No,Yes,No,No
+Francis Ortega,75.0,Widowed,Associate Degree,1,Non-smoker,Sedentary,Unemployed,24605.18,Low,Unhealthy,Fair,Yes,Yes,No,No
+Anthony Burns,25.0,Single,Bachelor's Degree,0,,Sedentary,Employed,96649.32,High,Healthy,Poor,No,No,Yes,Yes
+Jessica Miller,22.0,Single,Associate Degree,0,Current,Moderate,Employed,44755.44,Moderate,Unhealthy,Fair,Yes,No,No,No
+Lisa Campos,51.0,Divorced,Master's Degree,3,Former,Sedentary,Employed,135510.96,High,Unhealthy,Good,No,No,No,Yes
+Anna Todd,71.0,Widowed,Associate Degree,1,Former,Moderate,Employed,42424.35,Moderate,Moderate,Fair,Yes,Yes,Yes,No
+Melissa Brown DDS,41.0,Divorced,Bachelor's Degree,0,Current,Sedentary,Employed,105089.02,High,Unhealthy,Poor,No,No,No,Yes
+Patrick Young,61.0,Married,High School,3,Non-smoker,Sedentary,Unemployed,20266.2,High,Unhealthy,Poor,No,No,No,Yes
+Ronald Jennings,56.0,Widowed,Associate Degree,2,Non-smoker,Sedentary,Employed,41189.21,Moderate,Moderate,Fair,No,Yes,Yes,No
+James Brown,62.0,Widowed,Master's Degree,3,Non-smoker,Moderate,Unemployed,11108.22,Low,Healthy,Fair,Yes,No,Yes,No
+Amy Wells,32.0,Married,Associate Degree,3,Current,Active,Unemployed,16788.67,High,Unhealthy,Fair,No,No,No,No
+Dr. Robert Johnson DDS,43.0,Married,Associate Degree,2,Former,Moderate,Unemployed,3832.2,Moderate,Moderate,Fair,No,No,No,No
+Ann Wheeler,49.0,Divorced,Master's Degree,2,Current,Sedentary,Unemployed,24742.2,Low,Unhealthy,Poor,Yes,Yes,No,No
+Ana Duffy,35.0,Married,High School,3,Current,Sedentary,Unemployed,7382.69,,Unhealthy,Fair,No,No,No,Yes
+Richard Allen,69.0,Married,Bachelor's Degree,0,Non-smoker,Sedentary,,69943.3,Moderate,Moderate,Good,No,Yes,No,No
+Jason Williams,26.0,Single,Master's Degree,0,Former,Moderate,Unemployed,14608.71,High,Healthy,Fair,No,No,No,No
+Kendra Meyer,66.0,Married,Bachelor's Degree,2,Non-smoker,Moderate,Employed,95885.03,Low,Healthy,Poor,No,No,No,No
+Kayla Boyer,41.0,Married,Master's Degree,2,,Sedentary,Employed,90495.89,Moderate,Unhealthy,Fair,No,No,No,No
+Jose Chavez,77.0,Married,Master's Degree,1,Non-smoker,Sedentary,Employed,100107.87,Low,Unhealthy,Fair,No,Yes,No,No
+Douglas Whitehead,53.0,Divorced,Associate Degree,2,Non-smoker,Moderate,Unemployed,18186.74,Low,Moderate,Poor,Yes,No,No,Yes
+Kelly Hall,40.0,Married,High School,0,Former,Active,Employed,37703.61,Low,Moderate,Fair,No,No,Yes,No
+Kayla Alexander,71.0,Widowed,Master's Degree,0,Non-smoker,Moderate,Employed,129974.32,Low,Healthy,Good,Yes,No,No,No
+Erin Henry,250.0,Married,,2,Non-smoker,Moderate,Employed,46216.64,Low,Unhealthy,Poor,No,No,No,No
+Andre Mccormick,-20.0,Married,Master's Degree,1,Non-smoker,Moderate,Employed,153333.39,,Moderate,Poor,No,Yes,No,No
+Ian Weaver,39.0,Divorced,Bachelor's Degree,2,Former,Moderate,Unemployed,10000000.0,Moderate,Healthy,Poor,Yes,Yes,No,No
+Bridget Owen,67.0,Married,,0,Non-smoker,Moderate,Employed,-99999.0,Moderate,Healthy,Good,Yes,No,No,No
+Joseph Medina,51.0,Married,Bachelor's Degree,50,Non-smoker,Moderate,Employed,77772.25,Moderate,Healthy,Poor,No,Yes,No,Yes
+Meghan Deleon,41.0,Widowed,High School,2,Non-smoker,Sedentary,Employed,24397.86,Moderate,Unhealthy,Fair,No,No,No,No
+Joseph Baker,,Widowed,High School,1,Non-smoker,Sedentary,Employed,41344.79,Low,Unhealthy,Fair,No,No,No,Yes
+Jason Hall,71.0,Widowed,High School,2,Non-smoker,Sedentary,Employed,32386.13,Moderate,Moderate,Fair,Yes,Yes,Yes,Yes
+Alexander Hernandez,77.0,Married,Bachelor's Degree,2,Non-smoker,Sedentary,Employed,77597.84,Low,Unhealthy,Poor,Yes,No,No,No

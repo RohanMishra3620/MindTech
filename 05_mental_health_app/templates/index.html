@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindTech | AI Mental Health Insights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            /* Standard property first for validation */
+            background-clip: text;
+            -webkit-background-clip: text;
+            /* Text fill color */
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        .hero-pattern {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+
+        .loader {
+            border-top-color: #3b82f6;
+            animation: spinner 1.5s linear infinite;
+        }
+
+        @keyframes spinner {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+    </style>
+</head>
+
+<body class="hero-pattern text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="bg-blue-600 p-2 rounded-lg shadow-lg shadow-blue-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                </div>
+                <span class="text-xl font-bold tracking-tight">Mind<span class="text-blue-600">Tech</span></span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#home" class="hover:text-blue-600 transition-colors">Home</a>
+                <a href="#screen" class="hover:text-blue-600 transition-colors">Screening</a>
+                <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                <a href="#screen"
+                    class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition-all shadow-md hover:shadow-lg">Get
+                    Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <span
+                    class="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest uppercase bg-blue-100 text-blue-700 rounded-full">Intelligent
+                    Wellness</span>
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Step Into Your <span class="gradient-text">Mental Clarity</span> Session.
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    Access our interactive AI diagnostic interface. We walk you through your assessment step-by-step for
+                    the most accurate wellness mapping.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#screen"
+                        class="px-8 py-4 bg-slate-900 text-white rounded-xl font-semibold hover:bg-slate-800 transition-all shadow-xl">Begin
+                        Secure Session</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-blue-500/10 rounded-3xl blur-2xl"></div>
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
+                        alt="Cyber Security Tech"
+                        class="relative rounded-3xl shadow-2xl border border-white/50 object-cover h-[450px] w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screening Section -->
+    <section id="screen" class="py-24 bg-white border-y border-slate-200">
+        <div class="max-w-3xl mx-auto px-6">
+
+            <!-- Progress Stepper -->
+            <div class="flex justify-between items-center mb-12 relative">
+                <div class="absolute h-1 bg-slate-100 w-full top-1/2 -translate-y-1/2 z-0"></div>
+                <div id="progressBar"
+                    class="absolute h-1 bg-blue-600 w-0 top-1/2 -translate-y-1/2 z-0 transition-all duration-500"></div>
+
+                <div
+                    class="step-circle z-10 w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold shadow-lg">
+                    1</div>
+                <div
+                    class="step-circle z-10 w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold transition-colors">
+                    2</div>
+                <div
+                    class="step-circle z-10 w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold transition-colors">
+                    3</div>
+                <div
+                    class="step-circle z-10 w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold transition-colors">
+                    4</div>
+            </div>
+
+            <div
+                class="relative bg-slate-50 rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-100 min-h-[550px] flex flex-col overflow-hidden">
+                <form id="screeningForm" class="flex-grow flex flex-col">
+                    <!-- Hidden Mandatory Fields for Backend Mapping -->
+                    <input type="hidden" name="Employment" value="Employed">
+                    <input type="hidden" name="Alcohol" value="Low">
+                    <input type="hidden" name="Diet" value="Moderate">
+
+                    <!-- Step 1: Core Metrics -->
+                    <div id="step-0" class="step-content space-y-6">
+                        <h3 class="text-2xl font-bold text-slate-800">Section 1: Core Metrics</h3>
+                        <p class="text-slate-500 mb-8">Basic demographic indicators to calibrate our AI model.</p>
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Chronological Age</label>
+                                <input type="number" name="Age" required min="1" max="120" placeholder="e.g. 25"
+                                    class="w-full px-6 py-4 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-500 focus:outline-none transition-all text-lg">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Monthly Household Income
+                                    ($)</label>
+                                <input type="number" name="Income" required step="0.01" placeholder="Monthly total"
+                                    class="w-full px-6 py-4 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-500 focus:outline-none transition-all text-lg">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Dependents
+                                    (Children)</label>
+                                <input type="number" name="Children" required min="0" placeholder="Number of children"
+                                    class="w-full px-6 py-4 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-500 focus:outline-none transition-all text-lg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Demographics -->
+                    <div id="step-1" class="step-content hidden space-y-6">
+                        <h3 class="text-2xl font-bold text-slate-800">Section 2: Social Profile</h3>
+                        <p class="text-slate-500 mb-8">Contextual environment parameters.</p>
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Highest Education
+                                    Attained</label>
+                                <select name="Education"
+                                    class="w-full px-6 py-4 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-500 focus:outline-none transition-all bg-white text-lg">
+                                    <option value="High School">High School</option>
+                                    <option value="Associate Degree">Associate Degree</option>
+                                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                                    <option value="Master's Degree">Master's Degree</option>
+                                    <option value="PhD">PhD</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Current Marital
+                                    Status</label>
+                                <select name="Marital"
+                                    class="w-full px-6 py-4 rounded-2xl border border-slate-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-500 focus:outline-none transition-all bg-white text-lg">
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Divorced">Divorced</option>
+                                    <option value="Widowed">Widowed</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Lifestyle -->
+                    <div id="step-2" class="step-content hidden space-y-6">
+                        <h3 class="text-2xl font-bold text-slate-800">Section 3: Biological Feedback</h3>
+                        <p class="text-slate-500 mb-8">Data points regarding physical habits.</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Physical Activity</label>
+                                <select name="Activity"
+                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 bg-white">
+                                    <option value="Sedentary">Sedentary</option>
+                                    <option value="Moderate">Moderate</option>
+                                    <option value="Active">Active</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-slate-700">Sleep Quality
+                                    Index</label>
+                                <select name="Sleep"
+                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 bg-white">
+                                    <option value="Poor">Poor</option>
+                                    <option value="Fair">Fair</option>
+                                    <option value="Good">Good</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-slate-700">Toxicology (Smoking
+                                Status)</label>
+                            <select name="Smoking"
+                                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 bg-white">
+                                <option value="Non-smoker">Non-smoker</option>
+                                <option value="Former">Former</option>
+                                <option value="Current">Current</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Medical History -->
+                    <div id="step-3" class="step-content hidden space-y-6">
+                        <h3 class="text-2xl font-bold text-slate-800">Section 4: Medical Constants</h3>
+                        <p class="text-slate-500 mb-8">Self-reported history of physiological conditions.</p>
+                        <div class="grid grid-cols-1 gap-4">
+                            <div
+                                class="flex items-center justify-between p-4 bg-white rounded-2xl border border-slate-200">
+                                <span class="font-medium">Previous Mental Illness History?</span>
+                                <select name="MentalIllness"
+                                    class="bg-slate-100 border-none rounded-lg text-sm px-2 py-1">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </div>
+                            <div
+                                class="flex items-center justify-between p-4 bg-white rounded-2xl border border-slate-200">
+                                <span class="font-medium">Recent Substance Abuse?</span>
+                                <select name="Substance" class="bg-slate-100 border-none rounded-lg text-sm px-2 py-1">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </div>
+                            <div
+                                class="flex items-center justify-between p-4 bg-white rounded-2xl border border-slate-200">
+                                <span class="font-medium">Genetic History (Family Depression)?</span>
+                                <select name="FamilyDepression"
+                                    class="bg-slate-100 border-none rounded-lg text-sm px-2 py-1">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </div>
+                            <div
+                                class="flex items-center justify-between p-4 bg-white rounded-2xl border border-slate-200">
+                                <span class="font-medium">Active Chronic Conditions?</span>
+                                <select name="Chronic" class="bg-slate-100 border-none rounded-lg text-sm px-2 py-1">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="flex justify-between items-center mt-auto pt-10">
+                        <button type="button" id="prevBtn"
+                            class="hidden px-6 py-3 border border-slate-300 rounded-xl font-semibold text-slate-500 hover:bg-slate-100 transition-all">Back</button>
+                        <div class="flex-grow"></div>
+                        <button type="button" id="nextBtn"
+                            class="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl hover:bg-blue-700 transition-all active:scale-95">Continue</button>
+                        <button type="submit" id="submitBtn"
+                            class="hidden px-10 py-4 bg-emerald-600 text-white rounded-2xl font-bold shadow-xl hover:bg-emerald-700 transition-all active:scale-95">Generate
+                            Diagnostic</button>
+                    </div>
+                </form>
+
+                <!-- Secure Authentication Animation (Overlay) -->
+                <div id="authArea"
+                    class="hidden absolute inset-0 bg-slate-900 z-40 flex flex-col items-center justify-center p-12 overflow-hidden">
+                    <div class="mb-8 relative">
+                        <div class="loader ease-linear rounded-full border-2 border-t-4 border-blue-500/20 h-24 w-24">
+                        </div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-500 animate-pulse"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm space-y-3 font-mono text-sm">
+                        <div id="authText1" class="text-blue-400 opacity-0 transition-opacity">>> INITIALIZING SECURE
+                            HANDSHAKE...</div>
+                        <div id="authText2" class="text-blue-400 opacity-0 transition-opacity">>> VERIFYING BIOMETRIC
+                            HASH... OK</div>
+                        <div id="authText3" class="text-blue-400 opacity-0 transition-opacity">>> UPLOADING DATA TO
+                            NEURAL CORE...</div>
+                        <div id="authText4"
+                            class="text-blue-400 opacity-0 transition-opacity font-bold text-emerald-400">>> ENCRYPTED
+                            RESULTS GENERATED.</div>
+                    </div>
+                </div>
+
+                <!-- Final Results Display -->
+                <div id="resultsArea" class="hidden flex flex-col h-full animate-fade-in">
+                    <div class="text-center mb-10">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs font-bold uppercase mb-4">
+                            Verified Result</div>
+                        <h2 class="text-4xl font-black text-slate-900 mb-2" id="resultLevel">Analyzing...</h2>
+                        <p class="text-slate-500 px-10" id="resultDesc"></p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 text-center shadow-sm">
+                            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Low Risk
+                            </div>
+                            <div class="text-3xl font-bold text-blue-600" id="probLow">-%</div>
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 text-center shadow-sm">
+                            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Moderate
+                            </div>
+                            <div class="text-3xl font-bold text-slate-700" id="probMod">-%</div>
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 text-center shadow-sm">
+                            <div class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">High Risk
+                            </div>
+                            <div class="text-3xl font-bold text-slate-700" id="probHigh">-%</div>
+                        </div>
+                    </div>
+                    <button onclick="window.location.reload()"
+                        class="w-full py-4 bg-slate-900 text-white rounded-2xl font-bold hover:bg-slate-800 transition-all">Reset
+                        Session</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <span class="text-xl font-bold text-white">Mind<span class="text-blue-500">Tech</span></span>
+            <div class="font-medium text-slate-400">Designed and Made by <span
+                    class="text-blue-500 font-bold px-2 py-1 bg-white/5 rounded-lg">Rohan</span></div>
+        </div>
+    </footer>
+
+<script>
+    let currentStep = 0;
+    const totalSteps = 4;
+
+    const steps = document.querySelectorAll('.step-content');
+    const circles = document.querySelectorAll('.step-circle');
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    const progressBar = document.getElementById('progressBar');
+
+    function updateUI() {
+        steps.forEach((step, idx) => {
+            step.classList.toggle('hidden', idx !== currentStep);
+        });
+
+        circles.forEach((circle, idx) => {
+            if (idx <= currentStep) {
+                circle.classList.add('bg-blue-600', 'text-white');
+            } else {
+                circle.classList.remove('bg-blue-600', 'text-white');
+            }
+        });
+
+        progressBar.style.width = `${(currentStep / (totalSteps - 1)) * 100}%`;
+        prevBtn.classList.toggle('hidden', currentStep === 0);
+
+        if (currentStep === totalSteps - 1) {
+            nextBtn.classList.add('hidden');
+            submitBtn.classList.remove('hidden');
+        } else {
+            nextBtn.classList.remove('hidden');
+            submitBtn.classList.add('hidden');
+        }
+    }
+
+    nextBtn.addEventListener('click', () => {
+        if (currentStep < totalSteps - 1) {
+            currentStep++;
+            updateUI();
+        }
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (currentStep > 0) {
+            currentStep--;
+            updateUI();
+        }
+    });
+
+    document.getElementById('screeningForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const authArea = document.getElementById('authArea');
+        const resultsArea = document.getElementById('resultsArea');
+        const form = document.getElementById('screeningForm');
+        const formData = new FormData(form);
+
+        // Show loading UI
+        authArea.classList.remove('hidden');
+        form.classList.add('hidden');
+
+        // Animation text sequence
+        const lines = ['authText1', 'authText2', 'authText3', 'authText4'];
+        lines.forEach((id, index) => {
+            setTimeout(() => {
+                const el = document.getElementById(id);
+                if(el) el.classList.remove('opacity-0');
+            }, index * 800);
+        });
+
+        try {
+            const response = await fetch('/', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+
+            if (data.error) {
+                throw new Error(data.error);
+            }
+
+            // Artificial delay for the "processing" feel
+            setTimeout(() => {
+                authArea.classList.add('hidden');
+                resultsArea.classList.remove('hidden');
+
+                // Update results UI
+                document.getElementById('resultLevel').innerText = data.result;
+                document.getElementById('probLow').innerText = data.probs.Low + '%';
+                document.getElementById('probMod').innerText = data.probs.Moderate + '%';
+                document.getElementById('probHigh').innerText = data.probs.High + '%';
+            }, 3200);
+
+        } catch (err) {
+            console.error("Submission Error:", err);
+            authArea.classList.add('hidden');
+            form.classList.remove('hidden');
+            alert("⚠️ Error: " + err.message);
+        }
+    });
+
+    updateUI();
+</script>
+</body>
+
+</html>
