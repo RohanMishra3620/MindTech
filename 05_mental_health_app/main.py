@@ -9,12 +9,20 @@ app = Flask(__name__)
 base_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(base_dir, "model", "mental_health_model.pkl")
 cols_path = os.path.join(base_dir, "model", "columns.pkl")
+
+import traceback
+
 try:
+    print("Loading model from:", model_path)
     model = joblib.load(model_path)
+    print("Model loaded successfully ✅")
+
+    print("Loading columns from:", cols_path)
     columns = joblib.load(cols_path)
+    print("Columns loaded successfully ✅")
+
 except Exception as e:
-    import traceback
-    print("🔥 MODEL LOAD FULL ERROR:")
+    print("🔥🔥 MODEL LOAD FAILED 🔥🔥")
     traceback.print_exc()
     model = None
     columns = None
