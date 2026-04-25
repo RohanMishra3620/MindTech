@@ -13,7 +13,9 @@ try:
     model = joblib.load(model_path)
     columns = joblib.load(cols_path)
 except Exception as e:
-    print(f" Model Load Error: {e}")
+    import traceback
+    print("🔥 MODEL LOAD FULL ERROR:")
+    traceback.print_exc()
     model = None
     columns = None
 
