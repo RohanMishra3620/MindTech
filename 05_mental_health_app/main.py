@@ -1,36 +1,39 @@
 import os
 import joblib
 import pandas as pd
+import traceback
 from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
-# -------- Load Model with Error Handling -------
+# -------- Paths --------
 base_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(base_dir, "model", "mental_health_model.pkl")
 cols_path = os.path.join(base_dir, "model", "columns.pkl")
 
-import traceback
 
-try:
-    print("Loading model from:", model_path)
-    model = joblib.load(model_path)
-    print("Model loaded successfully ✅")
+# -------- Load model function (IMPORTANT FIX) --------
+def load_model():
+    try:
+        print("Loading model from:", model_path)
+        model = joblib.load(model_path)
 
-    print("Loading columns from:", cols_path)
-    columns = joblib.load(cols_path)
-    print("Columns loaded successfully ✅")
+        print("Loading columns from:", cols_path)
+        columns = joblib.load(cols_path)
 
-except Exception as e:
-    print("🔥🔥 MODEL LOAD FAILED 🔥🔥")
-    traceback.print_exc()
-    model = None
-    columns = None
+        print("Model & Columns loaded successfully")
+        return model, columns
 
-def encode_input(user_data):
+    except Exception as e:
+        print("MODEL LOAD ERROR ")
+        traceback.print_exc()
+        return None, None
+
+
+# -------- Encode input --------
+def encode_input(user_data, columns):
     df = pd.DataFrame([user_data])
 
-    # Convert binary features
     yes_no_cols = [
         "History_of_Mental_Illness",
         "History_of_Substance_Abuse",
@@ -42,22 +45,29 @@ def encode_input(user_data):
         if col in df.columns:
             df[col] = df[col].map({"Yes": 1, "No": 0}).fillna(0)
 
-    # One-hot encoding and aligning with training columns
     df = pd.get_dummies(df)
     df = df.reindex(columns=columns, fill_value=0)
+
     return df
 
+
+# -------- Routes --------
 @app.route("/", methods=["GET"])
 def home():
     return render_template("index.html")
 
+
 @app.route("/", methods=["POST"])
 def predict():
-    if model is None:
-        return jsonify({"error": "Model files missing on server."}), 500
-        
+
+    model, columns = load_model()
+
+    if model is None or columns is None:
+        return jsonify({
+            "error": "Model failed to load. Check server logs."
+        }), 500
+
     try:
-        # Extract form data
         user = {
             "Age": int(request.form.get("Age", 0)),
             "Education_Level": request.form.get("Education", "Bachelor's Degree"),
@@ -74,34 +84,37 @@ def predict():
             "Chronic_Medical_Conditions": request.form.get("Chronic", "No")
         }
 
-        # Handle Categorical Encoding (Marital & Smoking)
+        # Categorical encoding
         marital = request.form.get("Marital", "Single")
         user[f"Marital_Status_{marital}"] = 1
-        
+
         smoking = request.form.get("Smoking", "Non-smoker")
         user[f"Smoking_Status_{smoking}"] = 1
 
-        # Process and Predict
-        df_encoded = encode_input(user)
+        # Encode
+        df_encoded = encode_input(user, columns)
+
+        # Predict
         prediction_idx = model.predict(df_encoded)[0]
         probabilities = model.predict_proba(df_encoded)[0]
 
         labels = ["Low Risk", "Moderate Risk", "High Risk"]
 
         return jsonify({
-               "result": labels[prediction_idx],
-               "probs": {
-        # Convert float32 to standard float using float()
-        "Low": round(float(probabilities[0]) * 100, 1),
-        "Moderate": round(float(probabilities[1]) * 100, 1),
-        "High": round(float(probabilities[2]) * 100, 1)
-          }
-     })
-       
+            "result": labels[prediction_idx],
+            "probs": {
+                "Low": round(float(probabilities[0]) * 100, 1),
+                "Moderate": round(float(probabilities[1]) * 100, 1),
+                "High": round(float(probabilities[2]) * 100, 1)
+            }
+        })
 
     except Exception as e:
-        print(f"🔥 Prediction Error: {e}")
+        print("Prediction Error:")
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 400
 
+
+# -------- Run --------
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=10000)
