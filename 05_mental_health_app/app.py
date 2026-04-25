@@ -5,16 +5,15 @@ from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
-# -------- Load Model with Error Handling --------
-base_dir = os.path.dirname(__file__)
-model_path = os.path.join(base_dir, "..", "06_models", "mental_health_model.pkl")
-cols_path = os.path.join(base_dir, "..", "06_models", "columns.pkl")
-
+# -------- Load Model with Error Handling -------
+base_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(base_dir, "model", "mental_health_model.pkl")
+cols_path = os.path.join(base_dir, "model", "columns.pkl")
 try:
     model = joblib.load(model_path)
     columns = joblib.load(cols_path)
 except Exception as e:
-    print(f"❌ Model Load Error: {e}")
+    print(f" Model Load Error: {e}")
     model = None
     columns = None
 
@@ -78,7 +77,7 @@ def predict():
         probabilities = model.predict_proba(df_encoded)[0]
 
         labels = ["Low Risk", "Moderate Risk", "High Risk"]
-# Change this part in your app.py predict function:
+
         return jsonify({
                "result": labels[prediction_idx],
                "probs": {
